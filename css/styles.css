@@ -14,23 +14,15 @@
     src: url("lato-regular.woff2") format("woff2");
 }
 
-@font-face {
-    font-family: "Lato";
-    src: url("lato-italic.woff2") format("woff2");
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Lato";
-    src: url("lato-bold.woff2") format("woff2");
-    font-weight: 700;
-}
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     display: flex;
@@ -40,20 +32,24 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: "Argent CF", serif;
     font-weight: 400;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-family: "Argent CF", serif;
     font-weight: 400;
+    line-height: 1.6;
+    margin: 1.5rem;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: Lato, sans-serif;
+    line-height: 1.6;
+    margin: 1.5rem;
 }
 
 a {
@@ -61,15 +57,37 @@ a {
     text-decoration: none;
 }
 
-.restaurant-name {}
+.button {
+    display: inline-block;
+  font-size: 1.25rem;
+  padding: 1rem;
+  margin: 1.5rem;
+  border-radius: 2rem;
+  border: 3px solid #FAFAFA;
+  transition: all 0.3s ease 0s;
+  font-family: "Argent CF", serif;
+  cursor: pointer;
+  color: #FAFAFA;
+}
+
+.button:hover {
+    color: #000000;
+    background-color: #FAFAFA;
+}
+
+.restaurant-name {
+    font-family: "Argent CF", serif;
+}
 
 header {
     width: 85%;
     max-width: 1224px;
     height: 120px;
-    position: relative;
+    position: absolute;
     z-index: 99;
     margin: 0 auto;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
 nav {
@@ -157,12 +175,6 @@ nav li {
     nav ul.active {
         display: block;
     }
-}
-
-section:first-child {
-    position: relative;
-    top: -120px;
-    padding-top: 120px;
 }
 
 footer {
