@@ -132,16 +132,18 @@ nav li {
 
     main,
     footer {
-        visibility: visible;
+        display: block;
         opacity: 1;
-        transition: opacity 0.3s linear;
+        transition: opacity 0.3s ease;
     }
 
     main.active,
     footer.active {
-        visibility: hidden;
         opacity: 0;
-        transition: visibility 0s 0.3s, opacity 0.3s ease;
+    }
+
+    main.hidden, footer.hidden {
+        display: none;
     }
 
     #hamburger {
