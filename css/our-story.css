@@ -1,0 +1,48 @@
+#title {
+    text-align: center;
+}
+
+#definition .panel-container {
+    height: 50vh;
+}
+
+#definition .image-container {
+    margin: 2rem;
+}
+
+#definition .text-container {
+    margin: 0;
+}
+
+@media (max-width: 820px) {
+    #definition .panel-container {
+        flex-direction: column;
+        height: 80vh;
+    }
+}
+
+#write-up {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#write-up img {
+    float: right;
+    width: 85%;
+    max-width: 500px;
+    margin: 2.5rem;
+}
+
+@media (max-width: 820px) {
+    #write-up img {
+        float: none;
+        text-align: center;
+    }
+}
+
+#write-up p:last-child {
+    margin-bottom: 0;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #FAFAFA;
+}

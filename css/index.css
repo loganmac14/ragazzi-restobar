@@ -28,39 +28,6 @@
     transform: translatex(-50%);
 }
 
-.panel-container {
-    width: 85%;
-    max-width: 1100px;
-    display: flex;
-    height: 70vh;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0;
-    margin: 3rem auto;
-}
-
-@media (max-width: 820px) {
-    .panel-container {
-        flex-direction: column;
-        height: 110vh;
-    }
-}
-
-.image-container {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-}
-
-.text-container {
-    height: 100%;
-    width: 100%;
- margin: 0 2rem;   
- display: flex;
- align-items: center;
-}
-
 #food .panel-container {
     text-align: right;
 }
