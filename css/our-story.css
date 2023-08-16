@@ -38,6 +38,7 @@
     #write-up img {
         float: none;
         text-align: center;
+        margin: 0;
     }
 }
 
