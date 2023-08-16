@@ -30,3 +30,7 @@
     background-color: #FAFAFA;
     text-align: left;
 }
+
+#contact-container a {
+    text-decoration: underline;
+}
