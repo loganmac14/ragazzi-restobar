@@ -1,0 +1,53 @@
+#events-opener {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#weekly-gatherings, #special-entertainment {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+#weekly-gatherings .panel-container, #special-entertainment .panel-container {
+    justify-content: left;
+    margin: 2.5rem auto 4rem auto;
+}
+
+@media (max-width: 820px) {
+    #weekly-gatherings .panel-container, #special-entertainment .panel-container {
+        justify-content: center;
+        height: 80vh;
+    }
+}
+
+#weekly-gatherings-container, #special-entertainment-container {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    background-color: #FAFAFA;
+    text-align: left;
+}
+
+#private-bookings .panel-container {
+    height: 80vh;
+}
+
+@media (max-width: 820px) {
+    #private-bookings .panel-container {
+        flex-direction: column;
+        height: 130vh;
+    }
+}
+
+#private-bookings a {
+    text-decoration: underline;
+}

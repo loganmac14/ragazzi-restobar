@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Explore our culinary tapestry inspired by Italy's borgos. From artisanal pastas to wood-fired pizzas and fresh seafood, our menu celebrates simplicity and excellence in every bite.">
+    <meta name="description"
+        content="Explore our culinary tapestry inspired by Italy's borgos. From artisanal pastas to wood-fired pizzas and fresh seafood, our menu celebrates simplicity and excellence in every bite.">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>Menu - Ragazzi Restobar</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/menu.css">
     <script src="https://kit.fontawesome.com/128de4145f.js" crossorigin="anonymous"></script>
     <script src="js/main.js" defer></script>
+    <script src="js/menu.js" defer></script>
 </head>
 
 <body>
@@ -43,35 +45,121 @@
         </nav>
     </header>
     <main>
-        <section id="menu">
-        
+        <section id="menu-opener">
+            <h1>Menu</h2>
+                <p>Include some informative text here, taking inspiration from "Our Food" on homepage.</p>
+        </section>
+        <section id="lunch">
+            <div class="panel-container">
+                <div class="image-container" style="background-image: url('images/menu/lunch.webp')"></div>
+                <div class="text-container">
+                    <div>
+                        <h2>Lunch</h2>
+                        <p><b>V</b> (vegetarian) <b>GF</b> (gluten free)<br><br>
+                            Please inform your server of any allergies.<br><br>If there is anything you would like that
+                            you do not see on the menu, please notify your server and we will gladly make it for you.
+                        </p>
+                        <div class="menu-container">
+                            <button class="category-button" data-category="lunch-antipasti">Antipasti</button>
+                            <button class="category-button" data-category="lunch-pasta-risotto">Pasta & Risotto</button>
+                            <button class="category-button" data-category="lunch-entree">Entree</button>
+                            <button class="category-button" data-category="lunch-sandwich">Sandwich</button>
+                            <button class="category-button" data-category="lunch-pizza">Pizza</button>
+                            <button class="category-button" data-category="lunch-sides">Sides</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-content">
+                <!-- Category containers and items will be dynamically added here -->
+            </div>
+        </section>
+        <section id="dinner">
+            <div class="panel-container">
+                <div class="image-container" style="background-image: url('images/menu/dinner.webp')"></div>
+                <div class="text-container">
+                    <div>
+                        <h2>Dinner</h2>
+                        <p><b>V</b> (vegetarian) <b>GF</b> (gluten free)<br><br>
+                            Please inform your server of any allergies.<br><br>If there is anything you would like that
+                            you do not see on the menu, please notify your server and we will gladly make it for you.
+                        </p>
+                        <div class="menu-container">
+                            <button class="category-button" data-category="dinner-antipasti">Antipasti</button>
+                            <button class="category-button" data-category="dinner-pasta-risotto">Pasta &
+                                Risotto</button>
+                            <button class="category-button" data-category="dinner-entree">Entree</button>
+                            <button class="category-button" data-category="dinner-pizza">Pizza</button>
+                            <button class="category-button" data-category="dinner-sides">Sides</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-content">
+                <!-- Category containers and items will be dynamically added here -->
+            </div>
+        </section>
+        <section id="drinks">
+            <div class="panel-container">
+                <div class="image-container" style="background-image: url('images/menu/drinks.webp')"></div>
+                <div class="text-container">
+                    <div>
+                        <h2>Drinks</h2>
+                        <div class="menu-container">
+                            <h3>Cocktails & Wine</h3>
+                            <button class="category-button" data-category="drinks-cocktails">Cocktails</button>
+                            <button class="category-button" data-category="drinks-white">White</button>
+                            <button class="category-button" data-category="drinks-red">Red</button>
+                            <button class="category-button" data-category="drinks-sparkling">Sparkling</button>
+                            <h3>Grande Liquori</h3>
+                            <button class="category-button" data-category="drinks-cognac">Cognac</button>
+                            <button class="category-button" data-category="drinks-single-malts">Single Malts</button>
+                            <button class="category-button" data-category="drinks-rum">Rum</button>
+                            <button class="category-button" data-category="drinks-tequila">Tequila</button>
+                            <button class="category-button" data-category="drinks-gin">Gin</button>
+                            <button class="category-button" data-category="drinks-bourbon">Bourbon</button>
+                            <button class="category-button" data-category="drinks-vodka">Vodka</button>
+                            <button class="category-button" data-category="drinks-beer">Beer</button>
+                            <button class="category-button" data-category="drinks-scotch">Scotch</button>
+                            <h3>Non-Alcoholic</h3>
+                            <button class="category-button" data-category="drinks-beverages">Beverages</button>
+                            <button class="category-button" data-category="drinks-cafe">Cafe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-content">
+                <!-- Category containers and items will be dynamically added here -->
+            </div>
         </section>
     </main>
-        <footer>
-            <div id="footer-container">
-                <div>
-                    <h2>Hours</h2>
-                    <p>Sunday: 3PM - 9PM <br>
-                        Monday: 4PM - 10PM <br>
-                        Tuesday - <br>
-                        Friday: 12PM - 10PM <br>
-                        Saturday: 4PM - 10PM</p>
-                </div>
-                <div>
-                    <h2>Location</h2>
-                    <p>5187 Salter St <br>
-                        Halifax, NS</p>
-                    <p>Complimentary parking on Granville&nbsp;St</p>
-                </div>
+    <footer>
+        <div id="footer-container">
+            <div>
+                <h2>Hours</h2>
+                <p>Sunday: 3PM - 9PM <br>
+                    Monday: 4PM - 10PM <br>
+                    Tuesday - <br>
+                    Friday: 12PM - 10PM <br>
+                    Saturday: 4PM - 10PM</p>
             </div>
-            <div id="footer-info">
-                <a target="_blank" href="https://www.instagram.com/restobar.ragazzi" class="footer-icon fa-brands fa-instagram"></a>
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=100083331932673" class="footer-icon fa-brands fa-facebook"></a>
-                <!-- <a target="_blank" href="https://www.tiktok.com/@ragazzi.restobar" class="footer-icon fa-brands fa-tiktok"></a> -->
-                <p>©2023 Ragazzi Restobar<br>
-                    Designed by Logan MacDonald</p>
+            <div>
+                <h2>Location</h2>
+                <p>5187 Salter St <br>
+                    Halifax, NS</p>
+                <p>Complimentary parking on Granville&nbsp;St</p>
             </div>
-        </footer>
+        </div>
+        <div id="footer-info">
+            <a target="_blank" href="https://www.instagram.com/restobar.ragazzi"
+                class="footer-icon fa-brands fa-instagram"></a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100083331932673"
+                class="footer-icon fa-brands fa-facebook"></a>
+            <!-- <a target="_blank" href="https://www.tiktok.com/@ragazzi.restobar" class="footer-icon fa-brands fa-tiktok"></a> -->
+            <p>©2023 Ragazzi Restobar<br>
+                Designed by Logan MacDonald</p>
+        </div>
+    </footer>
 </body>
 
 </html>

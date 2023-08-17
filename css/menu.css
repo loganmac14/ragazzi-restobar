@@ -1,0 +1,74 @@
+#menu-opener {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#lunch .panel-container, #dinner .panel-container, #drinks .panel-container {
+    margin-bottom: 1.5rem;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 1rem;
+}
+
+.category-button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #FAFAFA;
+    border: 3px solid #FAFAFA;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 0.5rem;
+}
+
+.category-button:hover {
+    background-color: #FAFAFA;
+    color: #000000;
+
+}
+
+.category-button.active {
+    background-color: #FAFAFA;
+    color: #000000;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 20px;
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.menu-content.hidden {
+    opacity: 0;
+}
+
+.menu-content h3,
+.menu-content p {
+    margin: 0.75rem
+}
+
+.menu-content div:last-child p {
+    margin-bottom: 0;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #FAFAFA;
+}
+
+#drinks .menu-container h3 {
+    flex-basis: 100%;
+    margin-left: 0.5rem;
+}
+#drinks h2 {
+    flex-basis: 100%;
+    margin-bottom: 0;
+}
