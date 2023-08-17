@@ -24,3 +24,4 @@ document.querySelectorAll("nav a").forEach(n => n.addEventListener("click", () =
   main.classList.remove("active");
   footer.classList.remove("active");
 }))
+
