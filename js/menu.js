@@ -1120,3 +1120,84 @@ setupMenu(dinnerMenuContainer, dinnerMenuContent);
 const drinksMenuContainer = document.querySelector('#drinks .menu-container');
 const drinksMenuContent = document.querySelector('#drinks .menu-content');
 setupMenu(drinksMenuContainer, drinksMenuContent);
+
+// JavaScript code
+
+const lunchButton = document.getElementById('lunch-button');
+const dinnerButton = document.getElementById('dinner-button');
+const drinksButton = document.getElementById('drinks-button');
+
+const lunchSection = document.getElementById('lunch');
+const dinnerSection = document.getElementById('dinner');
+const drinksSection = document.getElementById('drinks');
+
+// Function to update button selection
+function updateButtonSelection(selectedButton) {
+    [lunchButton, dinnerButton, drinksButton].forEach(button => {
+        if (button === selectedButton) {
+            button.classList.add('active');
+        } else {
+            button.classList.remove('active');
+        }
+    });
+}
+
+// Function to fade in a section
+function fadeIn(section) {
+    section.style.display = 'block';
+    section.style.opacity = '0';
+    const interval = setInterval(() => {
+        if (parseFloat(section.style.opacity) < 1) {
+            section.style.opacity = (parseFloat(section.style.opacity) + 0.1).toString();
+        } else {
+            clearInterval(interval);
+        }
+    }, 30);
+}
+
+// Function to fade out a section
+function fadeOut(section) {
+    section.style.opacity = '1';
+    const interval = setInterval(() => {
+        if (parseFloat(section.style.opacity) > 0) {
+            section.style.opacity = (parseFloat(section.style.opacity) - 0.1).toString();
+        } else {
+            section.style.display = 'none';
+            clearInterval(interval);
+        }
+    }, 30);
+}
+
+// Default: Only Lunch section is visible, and Lunch button is selected
+lunchSection.style.display = 'block';
+dinnerSection.style.display = 'none';
+drinksSection.style.display = 'none';
+updateButtonSelection(lunchButton);
+
+// Add event listeners to the buttons
+lunchButton.addEventListener('click', () => {
+    fadeOut(dinnerSection);
+    fadeOut(drinksSection);
+    setTimeout(() => {
+        fadeIn(lunchSection);
+        updateButtonSelection(lunchButton);
+    }, 300);
+});
+
+dinnerButton.addEventListener('click', () => {
+    fadeOut(lunchSection);
+    fadeOut(drinksSection);
+    setTimeout(() => {
+        fadeIn(dinnerSection);
+        updateButtonSelection(dinnerButton);
+    }, 300);
+});
+
+drinksButton.addEventListener('click', () => {
+    fadeOut(lunchSection);
+    fadeOut(dinnerSection);
+    setTimeout(() => {
+        fadeIn(drinksSection);
+        updateButtonSelection(drinksButton);
+    }, 300);
+});
