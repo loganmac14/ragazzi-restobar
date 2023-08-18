@@ -24,13 +24,20 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
     color: #FAFAFA;
+}
+
+section, footer {
+    opacity: 0;
+    transform: translateY(20px);
+    /* Move content down initially */
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 h1 {
@@ -76,15 +83,15 @@ a {
 
 .button {
     display: inline-block;
-  font-size: 1.25rem;
-  padding: 1rem;
-  margin: 1.5rem;
-  border-radius: 2rem;
-  border: 3px solid #FAFAFA;
-  transition: all 0.3s ease 0s;
-  font-family: "Argent CF", serif;
-  cursor: pointer;
-  color: #FAFAFA;
+    font-size: 1.25rem;
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 2rem;
+    border: 3px solid #FAFAFA;
+    transition: all 0.3s ease 0s;
+    font-family: "Argent CF", serif;
+    cursor: pointer;
+    color: #FAFAFA;
 }
 
 .button:hover {
@@ -227,9 +234,9 @@ section:first-child {
 .text-container {
     height: 100%;
     width: 100%;
- margin: 0 2rem;   
- display: flex;
- align-items: center;
+    margin: 0 2rem;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -248,8 +255,9 @@ footer {
 
 @media (max-width: 820px) {
     #footer-container {
-      flex-direction: column;
+        flex-direction: column;
     }
+
     #footer-container div {
         width: 100%;
     }

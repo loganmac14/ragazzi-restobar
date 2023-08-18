@@ -25,3 +25,22 @@ document.querySelectorAll("nav a").forEach(n => n.addEventListener("click", () =
   footer.classList.remove("active");
 }))
 
+function fadeInOnScroll() {
+  const fadeElements = document.querySelectorAll('section, footer');
+
+  fadeElements.forEach(element => {
+     const elementTop = element.getBoundingClientRect().top;
+     const windowHeight = window.innerHeight;
+
+     if (elementTop < windowHeight) {
+        element.style.opacity = '1';
+        element.style.transform = 'translateY(0)';
+     }
+  });
+}
+
+// Attach the function to the scroll event
+window.addEventListener('scroll', fadeInOnScroll);
+
+// Initial call to make sure elements in view on page load are also faded in
+fadeInOnScroll();
