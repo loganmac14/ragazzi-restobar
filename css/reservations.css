@@ -1,0 +1,20 @@
+#reservations-opener a {
+    text-decoration: underline;
+}
+
+#reservations-opener {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#online-reservations {
+    text-align: center;
+}
+
+#online-reservations iframe {
+    max-width: 500px;
+    width: 85%;
+    height: 1200px;
+    margin: 0 auto;
+}

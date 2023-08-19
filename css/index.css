@@ -21,6 +21,10 @@
     margin: 5rem 0 0 0;
 }
 
+#hero a[href="tel:+19024407725"] {
+    text-decoration: underline;
+  }
+
 #next-button {
     color: #FAFAFA;
     position: absolute;
