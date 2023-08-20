@@ -10,19 +10,19 @@ const menuItems = [
         category: "lunch-antipasti",
         name: "Caprese Salad",
         price: "$15",
-        description: "Fresh mozzarella cheese, fresh ripe tomatoes, Sicilian olives in Tuscan olive oil balsamic glaze"
+        description: "Fresh mozzarella cheese, fresh ripe tomatoes and Sicilian olives in Tuscan bomba oil with balsamic glaze"
     },
     {
         category: "lunch-antipasti",
         name: "Caesar",
         price: "$13",
-        description: "Smoky bacon, toasted homemade croutons, classic Caesar dressing, and Parmigiano"
+        description: "Smoky bacon, toasted homemade croutons, classic Caesar dressing and Parmigiano"
     },
     {
         category: "lunch-antipasti",
         name: "Ragazzi Insalata",
         price: "$15",
-        description: "Beet & goat cheese salad topped with candied walnuts and finished with a Dijon vinaigrette"
+        description: "Beet and goat cheese salad topped with candied walnuts and finished with a Dijon vinaigrette"
     },
     {
         category: "lunch-antipasti",
@@ -34,7 +34,7 @@ const menuItems = [
         category: "lunch-antipasti",
         name: "Mussels",
         price: "$17 GF",
-        description: "Fresh herbs, in your choice of white wine or Pomodoro tomato sauce"
+        description: "Fresh herbs in your choice of white wine or pomodoro sauce"
     },
     {
         category: "lunch-antipasti",
@@ -46,13 +46,13 @@ const menuItems = [
         category: "lunch-antipasti",
         name: "Bruschetta",
         price: "$13 V",
-        description: "4 pieces of grilled crostini with fresh tomatoes, basil, olive oil"
+        description: "4 pieces of grilled crostini with fresh tomatoes, basil and olive oil"
     },
     {
         category: "lunch-antipasti",
         name: "Shrimp & Scallop Sambuca",
         price: "$22",
-        description: "Jumbo shrimp and scallops, tomatoes, and peppers on a skillet with flaming Sambuca"
+        description: "Jumbo shrimp and scallops, tomatoes and peppers on a skillet with flaming Sambuca"
     },
     {
         category: "lunch-antipasti",
@@ -72,13 +72,13 @@ const menuItems = [
         category: "lunch-pasta-risotto",
         name: "Linguine Pescatore",
         price: "$33",
-        description: "Shrimps, Scallops, and Mussels in a Pomodoro sauce"
+        description: "Shrimps, scallops, and mussels in a pomodoro sauce"
     },
     {
         category: "lunch-pasta-risotto",
         name: "Penne alla Vodka",
         price: "$20",
-        description: "Onions, Garlic, Parmigiano, and pancetta in a rosé cream sauce"
+        description: "Onions, garlic, Parmigiano, and pancetta in a rosé cream sauce"
     },
     {
         category: "lunch-pasta-risotto",
@@ -90,31 +90,31 @@ const menuItems = [
         category: "lunch-pasta-risotto",
         name: "Tagliatelle alla Bolognese",
         price: "$22",
-        description: "Beef, pork, and veal in a homemade Italian-style meat sauce"
+        description: "Beef, pork and veal in a homemade Italian-style meat sauce"
     },
     {
         category: "lunch-pasta-risotto",
         name: "Linguine with Meatballs",
         price: "$21",
-        description: "Homemade meatballs in a Pomodoro sauce with parmigiano"
+        description: "Homemade meatballs in a pomodoro sauce with Parmigiano"
     },
     {
         category: "lunch-pasta-risotto",
         name: "Lobster Tagliatelle",
         price: "$34",
-        description: "5oz Lobster tail, cherry tomatoes, garlic, fennel, brandy in a cream sauce"
+        description: "5oz Lobster tail, cherry tomatoes, garlic, fennel and brandy in a cream sauce"
     },
     {
         category: "lunch-pasta-risotto",
         name: "Risotto di Mare",
         price: "$32 GF",
-        description: "Shrimps, scallops, and mussels, in a Pomodoro sauce"
+        description: "Shrimps, scallops and mussels in a pomodoro sauce"
     },
     {
         category: "lunch-pasta-risotto",
         name: "Mushroom Risotto",
         price: "$24 GF",
-        description: "Porcini, Portobello and Cremini mushrooms finished with parmigiano"
+        description: "Porcini, Portobello and Cremini mushrooms finished with Parmigiano"
     },
     {
         category: "lunch-pasta-risotto",
@@ -134,13 +134,13 @@ const menuItems = [
         category: "lunch-entree",
         name: "Vegetarian Lasagna",
         price: "$25 V",
-        description: "A three layered lasagna with grilled zucchini, grilled eggplant, spinach and ricotta , made with fresh lasagna sheets with a tomato and bechamel sauce finished with mozzarella and parmigiano"
+        description: "A three-layered lasagna with grilled zucchini, grilled eggplant, spinach and ricotta made with fresh lasagna sheets and a tomato and bechamel sauce finished with mozzarella and Parmigiano"
     },
     {
         category: "lunch-entree",
         name: "Chicken or Veal Parmigiano",
         price: "$31",
-        description: "Breaded cutlets, mozzarella cheese, Pomodoro sauce with a side of tagliatelle in a rosé sauce"
+        description: "Breaded cutlets, mozzarella cheese and pomodoro sauce with a side of tagliatelle in a rosé sauce"
     },
     {
         category: "lunch-entree",
@@ -154,31 +154,31 @@ const menuItems = [
         category: "lunch-sandwich",
         name: "",
         price: "",
-        description: "Available 11am- 4pm, with choice of side of frittes, soup, or salad"
+        description: "Available 11am - 4pm, with choice of side of frittes, soup or salad"
     },
     {
         category: "lunch-sandwich",
         name: "Panini Italiano",
         price: "$17",
-        description: "Prosciutto, salami, roasted peppers, provolone, arugula, with garlic aioli, served on focaccia"
+        description: "Prosciutto, salami, roasted peppers, provolone, arugula and garlic aioli served on focaccia"
     },
     {
         category: "lunch-sandwich",
         name: "Panini Caprese",
         price: "$16",
-        description: "Bocconcini cheese, arugula, balsamic reduction, tomatoes, herb butter, served on focaccia"
+        description: "Bocconcini cheese, arugula, balsamic reduction, tomatoes and herb butter served on focaccia"
     },
     {
         category: "lunch-sandwich",
         name: "Amalfi Chicken Panini",
         price: "$17",
-        description: "Chicken, tomatoes, pancetta, arugula, provolone, with a garlic aioli, served on focaccia"
+        description: "Chicken, tomatoes, pancetta, arugula, provolone and garlic aioli served on focaccia"
     },
     {
         category: "lunch-sandwich",
         name: "Breaded Haddock Burger",
         price: "$18",
-        description: "6oz breaded haddock, pickles, home made tartar sauce, and greens"
+        description: "6oz breaded haddock, pickles, homemade tartar sauce and greens"
     },
 
     // Lunch Pizza
@@ -192,13 +192,13 @@ const menuItems = [
         category: "lunch-pizza",
         name: "Pizza Margherita",
         price: "$17",
-        description: "Pomodoro sauce and fior di latte mozzarella with fresh basil"
+        description: "Pomodoro sauce and fior di latte cheese with fresh basil"
     },
     {
         category: "lunch-pizza",
         name: "Pizza Diavola",
         price: "$19",
-        description: "Pomodoro sauce, fior di latte mozzarella, pancetta and spicy salami"
+        description: "Pomodoro sauce, fior di latte cheese, pancetta and spicy salami"
     },
     {
         category: "lunch-pizza",
@@ -226,6 +226,93 @@ const menuItems = [
         price: "$15",
         description: ""
     },
+
+    // Lunch Dolce
+    {
+        category: "lunch-dolce",
+        name: "Chocolate Almond Torte",
+        price: "$12",
+        description: "Two layers of moist chocolate almond torte (made with gluten-free flour) cradling a creamy almond filling and topped with a smooth chocolate almond mousse. You won't believe it's gluten-free!"
+    },
+    {
+        category: "lunch-dolce",
+        name: "Tiramisu Cake",
+        price: "$12",
+        description: 'The name means "pick me up" and it certainly will! Espresso drenched cake layers enhanced with a mouth watering mascarpone cheese mousse, topped with a dusting of cocoa sugar. Mama Mia!'
+    },
+    {
+        category: "lunch-dolce",
+        name: "Coffee Crunch Bar",
+        price: "$12",
+        description: "We give you a crunchy milk chocolate and coffee base, followed by a coffee no-bake cheesecake filled with COFFEE CRISP pieces. The third layer is a chocolate glaze, more COFFEE CRISP and milk chocolate drizzle."
+    },
+    {
+        category: "lunch-dolce",
+        name: "After-Dinner Delight Cheeseboard",
+        price: "$19",
+        description: "Served with specialty cheeses. Ask your server for more information"
+    },
+    {
+        category: "lunch-dolce",
+        name: "Affogato",
+        price: "$12",
+        description: "Vanilla gelato, espresso and biscotti"
+    },
+    {
+        category: "lunch-dolce",
+        name: "Cheesecake of the Moment",
+        price: "$12",
+        description: "Big enough to warrant its own area code; the Tower of Power is a jumbo-sized New York style cheesecake enhance with a subtle vanilla flavour"
+    },
+    // Lunch Specialty Coffee
+    {
+        category: "lunch-specialty-coffee",
+        name: "Ragazzi Coffee",
+        price: "$11",
+        description: ""
+    },
+    {
+        category: "lunch-specialty-coffee",
+        name: "Spanish Coffee",
+        price: "$11",
+        description: ""
+    },
+    {
+        category: "lunch-specialty-coffee",
+        name: "Irish Coffee",
+        price: "$11",
+        description: ""
+    },
+    {
+        category: "lunch-specialty-coffee",
+        name: "Monte Cristo Coffee",
+        price: "$11",
+        description: ""
+    },
+    {
+        category: "lunch-specialty-coffee",
+        name: "Flavoured Coffee",
+        price: "$6",
+        description: ""
+    },
+    {
+        category: "lunch-specialty-coffee",
+        name: "Espresso",
+        price: "$4",
+        description: ""
+    },
+    {
+        category: "lunch-specialty-coffee",
+        name: "Cappuccino",
+        price: "$5",
+        description: ""
+    },
+    {
+        category: "lunch-specialty-coffee",
+        name: "Ports & Cognacs",
+        price: "",
+        description: "Ask your server for details"
+    },
     // Dinner Antipasti
     {
         category: "dinner-antipasti",
@@ -237,19 +324,19 @@ const menuItems = [
         category: "dinner-antipasti",
         name: "Caprese Salad",
         price: "$17 V",
-        description: "Fresh mozzarella cheese, fresh ripe tomatoes, Sicilian olives in Tuscan olive oil balsamic glaze"
+        description: "Fresh mozzarella cheese, fresh ripe tomatoes and Sicilian olives in Tuscan bomba oil with balsamic glaze"
     },
     {
         category: "dinner-antipasti",
         name: "Caesar",
         price: "$13",
-        description: "Smoky bacon, toasted homemade croutons, classic Caesar dressing, and Parmigiano"
+        description: "Smoky bacon, toasted homemade croutons, classic Caesar dressing and Parmigiano"
     },
     {
         category: "dinner-antipasti",
         name: "Ragazzi Insalata",
         price: "$15",
-        description: "Beet & goat cheese salad topped with candied walnuts and finished with a Dijon vinaigrette"
+        description: "Beet and goat cheese salad topped with candied walnuts and finished with a Dijon vinaigrette"
     },
     {
         category: "dinner-antipasti",
@@ -261,31 +348,31 @@ const menuItems = [
         category: "dinner-antipasti",
         name: "Mussels",
         price: "$17 GF",
-        description: "Fresh herbs, in your choice of white wine or Pomodoro tomato sauce"
+        description: "Fresh herbs in your choice of white wine or pomodoro sauce"
     },
     {
         category: "dinner-antipasti",
         name: "Antipasto Board",
         price: "$26",
-        description: "Cacciatore salami, prosciutto, parmigiano, pecorino, olives and Italian medley"
+        description: "Cacciatore salami, prosciutto, Parmigiano, pecorino, olives and Italian medley"
     },
     {
         category: "dinner-antipasti",
         name: "Arancini",
         price: "$16",
-        description: "2 pieces made with wild mushrooms, parmigiano, Pomodoro sauce"
+        description: "2 pieces made with wild mushrooms, Parmigiano and pomodoro sauce"
     },
     {
         category: "dinner-antipasti",
         name: "Bruschetta",
         price: "$14 V",
-        description: "4 pieces of grilled crostini with fresh tomatoes, basil, olive oil"
+        description: "4 pieces of grilled crostini with fresh tomatoes, basil and olive oil"
     },
     {
         category: "dinner-antipasti",
         name: "Shrimp & Scallop Sambuca",
         price: "$22",
-        description: "Jumbo shrimp and scallops, tomatoes, and peppers on a skillet with flaming Sambuca"
+        description: "Jumbo shrimp and scallops, tomatoes and peppers on a skillet with flaming Sambuca"
     },
     {
         category: "dinner-antipasti",
@@ -305,13 +392,13 @@ const menuItems = [
         category: "dinner-pasta-risotto",
         name: "Linguine Pescatore",
         price: "$33",
-        description: "Shrimps, Scallops, and Mussels in a Pomodoro sauce"
+        description: "Shrimps, scallops, and mussels in a pomodoro sauce"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Penne alla Vodka",
         price: "$24",
-        description: "Onions, Garlic, Parmigiano, and pancetta in a rosé cream sauce"
+        description: "Onions, garlic, Parmigiano, and pancetta in a rosé cream sauce"
     },
     {
         category: "dinner-pasta-risotto",
@@ -323,13 +410,13 @@ const menuItems = [
         category: "dinner-pasta-risotto",
         name: "Tagliatelle alla Bolognese",
         price: "$24",
-        description: "Beef, pork, and veal in a homemade Italian-style meat sauce"
+        description: "Beef, pork and veal in a homemade Italian-style meat sauce"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Linguine with Meatballs",
         price: "$24",
-        description: "Homemade meatballs in a Pomodoro sauce with parmigiano"
+        description: "Homemade meatballs in a pomodoro sauce with Parmigiano"
     },
     {
         category: "dinner-pasta-risotto",
@@ -367,13 +454,13 @@ const menuItems = [
         category: "dinner-entree",
         name: "Vegetarian Lasagna",
         price: "$27 V",
-        description: "A three layered lasagna with grilled zucchini, grilled eggplant, spinach and ricotta , made with fresh lasagna sheets with a tomato and bechamel sauce finished with mozzarella and parmigiano"
+        description: "A three-layered lasagna with grilled zucchini, grilled eggplant, spinach and ricotta made with fresh lasagna sheets and a tomato and bechamel sauce finished with mozzarella and Parmigiano"
     },
     {
         category: "dinner-entree",
         name: "Chicken or Veal Parmigiano",
         price: "$35",
-        description: "Breaded cutlets, mozzarella cheese, Pomodoro sauce with a side of tagliatelle in a rosé sauce"
+        description: "Breaded cutlets, mozzarella cheese and pomodoro sauce with a side of tagliatelle in a rosé sauce"
     },
     {
         category: "dinner-entree",
@@ -428,13 +515,13 @@ const menuItems = [
         category: "dinner-pizza",
         name: "Pizza Margherita",
         price: "$17",
-        description: "Pomodoro sauce and fior di latte mozzarella with fresh basil"
+        description: "Pomodoro sauce and fior di latte cheese with fresh basil"
     },
     {
         category: "dinner-pizza",
         name: "Pizza Diavola",
         price: "$19",
-        description: "Pomodoro sauce, fior di latte mozzarella, pancetta and spicy salami"
+        description: "Pomodoro sauce, fior di latte cheese, pancetta and spicy salami"
     },
     {
         category: "dinner-pizza",
@@ -462,6 +549,92 @@ const menuItems = [
         price: "$15",
         description: ""
     },
+    // Dinner Dolce
+    {
+        category: "dinner-dolce",
+        name: "Chocolate Almond Torte",
+        price: "$12",
+        description: "Two layers of moist chocolate almond torte (made with gluten-free flour) cradling a creamy almond filling and topped with a smooth chocolate almond mousse. You won't believe it's gluten-free!"
+    },
+    {
+        category: "dinner-dolce",
+        name: "Tiramisu Cake",
+        price: "$12",
+        description: 'The name means "pick me up" and it certainly will! Espresso drenched cake layers enhanced with a mouth watering mascarpone cheese mousse, topped with a dusting of cocoa sugar. Mama Mia!'
+    },
+    {
+        category: "dinner-dolce",
+        name: "Coffee Crunch Bar",
+        price: "$12",
+        description: "We give you a crunchy milk chocolate and coffee base, followed by a coffee no-bake cheesecake filled with COFFEE CRISP pieces. The third layer is a chocolate glaze, more COFFEE CRISP and milk chocolate drizzle."
+    },
+    {
+        category: "dinner-dolce",
+        name: "After-Dinner Delight Cheeseboard",
+        price: "$19",
+        description: "Served with specialty cheeses. Ask your server for more information"
+    },
+    {
+        category: "dinner-dolce",
+        name: "Affogato",
+        price: "$12",
+        description: "Vanilla gelato, espresso and biscotti"
+    },
+    {
+        category: "dinner-dolce",
+        name: "Cheesecake of the Moment",
+        price: "$12",
+        description: "Big enough to warrant its own area code; the Tower of Power is a jumbo-sized New York style cheesecake enhance with a subtle vanilla flavour"
+    },
+    // Dinner Specialty Coffee
+    {
+        category: "dinner-specialty-coffee",
+        name: "Ragazzi Coffee",
+        price: "$11",
+        description: ""
+    },
+    {
+        category: "dinner-specialty-coffee",
+        name: "Spanish Coffee",
+        price: "$11",
+        description: ""
+    },
+    {
+        category: "dinner-specialty-coffee",
+        name: "Irish Coffee",
+        price: "$11",
+        description: ""
+    },
+    {
+        category: "dinner-specialty-coffee",
+        name: "Monte Cristo Coffee",
+        price: "$11",
+        description: ""
+    },
+    {
+        category: "dinner-specialty-coffee",
+        name: "Flavoured Coffee",
+        price: "$6",
+        description: ""
+    },
+    {
+        category: "dinner-specialty-coffee",
+        name: "Espresso",
+        price: "$4",
+        description: ""
+    },
+    {
+        category: "dinner-specialty-coffee",
+        name: "Cappuccino",
+        price: "$5",
+        description: ""
+    },
+    {
+        category: "dinner-specialty-coffee",
+        name: "Ports & Cognacs",
+        price: "",
+        description: "Ask your server for details"
+    },
     // Drinks Cocktails
     {
         category: "drinks-cocktails",
@@ -485,7 +658,7 @@ const menuItems = [
         category: "drinks-cocktails",
         name: "Blueberry Smash",
         price: "$15",
-        description: "Barrelling Tide Vodka, Barrelling Tide Blueberry liqueur, lemon soda, blueberries, and mint"
+        description: "Barrelling Tide Vodka, Barrelling Tide Blueberry liqueur, lemon soda, blueberries and mint"
     },
     {
         category: "drinks-cocktails",
@@ -742,7 +915,7 @@ const menuItems = [
     },
     {
         category: "drinks-single-malts",
-        name: "The singleton 12 Years",
+        name: "The Singleton 12 Years",
         price: "$13",
         description: ""
     },
@@ -842,7 +1015,7 @@ const menuItems = [
     // Drinks Gin
     {
         category: "drinks-gin",
-        name: "Barreling Tide Gin",
+        name: "Barrelling Tide Gin",
         price: "$7",
         description: ""
     },

@@ -5,36 +5,23 @@
     text-align: center;
 }
 
-#weekly-gatherings, #special-entertainment {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    gap: 0;
-    background-size: cover;
-    background-position: center;
+
+#private-bookings .panel-container, #wine-tastings .panel-container {
+    text-align: right;
 }
 
-#weekly-gatherings .panel-container, #special-entertainment .panel-container {
-    justify-content: left;
-    margin: 2.5rem auto 4rem auto;
+
+#private-bookings li, #wine-tastings li {
+    list-style: none;
 }
+
 
 @media (max-width: 820px) {
-    #weekly-gatherings .panel-container, #special-entertainment .panel-container {
-        justify-content: center;
-        height: 80vh;
-    }
-}
 
-#weekly-gatherings-container, #special-entertainment-container {
-    width: 100%;
-    max-width: 550px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-    background-color: #FAFAFA;
-    text-align: left;
+    #private-bookings .panel-container, #wine-tastings .panel-container {
+        flex-direction: column-reverse;
+        text-align: left;
+    }
 }
 
 #private-bookings .panel-container {

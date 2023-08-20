@@ -16,7 +16,6 @@
 
 @media (max-width: 820px) {
     #definition .panel-container {
-        flex-direction: column;
         height: 80vh;
     }
 }
