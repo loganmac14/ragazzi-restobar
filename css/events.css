@@ -23,7 +23,7 @@
         text-align: left;
     }
     #private-bookings li, #wine-tastings li {
-        list-style: default;
+        list-style: disc;
     }
 }
 
