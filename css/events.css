@@ -21,9 +21,9 @@
     #private-bookings .panel-container, #wine-tastings .panel-container {
         flex-direction: column-reverse;
         text-align: left;
-        li {
-            list-style: circle;
-        }
+    }
+    #private-bookings li, #wine-tastings li {
+        list-style: default;
     }
 }
 
