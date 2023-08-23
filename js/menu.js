@@ -705,19 +705,19 @@ const menuItems = [
     },
     {
         category: "drinks-white",
-        name: "Monte Giove Pinot Grigio",
+        name: "Pinot Grigio",
         price: "$14 / $16 / $49",
         description: ""
     },
     {
         category: "drinks-white",
-        name: "Portillo Chardonnay",
+        name: "Chardonnay",
         price: "$14 / $16 / $49",
         description: ""
     },
     {
         category: "drinks-white",
-        name: "Claude Val Rose",
+        name: "Rose",
         price: "$11 / $14 / $45",
         description: ""
     },
@@ -729,7 +729,7 @@ const menuItems = [
     },
     {
         category: "drinks-white",
-        name: "Cinzano Prosecco",
+        name: "Prosecco",
         price: "$12 / $48",
         description: ""
     },
@@ -741,26 +741,26 @@ const menuItems = [
     },
     {
         category: "drinks-white",
-        name: "Horologist Sauvignon Blanc",
-        price: "$54",
+        name: "Roys Hill Sauvignon Blanc",
+        price: "$56",
         description: ""
     },
     {
         category: "drinks-white",
-        name: "12e Mezzo Bianco Organico",
-        price: "$58",
+        name: "Barnoe di Valforte",
+        price: "$57",
         description: ""
     },
     {
         category: "drinks-white",
-        name: "Concilio Pinot Grigio",
-        price: "$62",
+        name: "Livon Pinot Grigio",
+        price: "$66",
         description: ""
     },
     {
         category: "drinks-white",
-        name: "Daniel Dampt Chablis",
-        price: "$85",
+        name: "Brocard Chablis",
+        price: "$82",
         description: ""
     },
     // Drinks - Red
@@ -772,20 +772,14 @@ const menuItems = [
     },
     {
         category: "drinks-red",
-        name: "Confessions Cabernet Sauvignon",
+        name: "Cabernet Sauvignon",
         price: "$14 / $16 / $52",
         description: ""
     },
     {
         category: "drinks-red",
-        name: "PinotPinot Pinot Noir",
+        name: "Pinot Noir",
         price: "$13 / $16 / $49",
-        description: ""
-    },
-    {
-        category: "drinks-red",
-        name: "Monte Giove Sangiovese Merlot Blend",
-        price: "$14 / $16 / $50",
         description: ""
     },
     {
@@ -802,82 +796,82 @@ const menuItems = [
     },
     {
         category: "drinks-red",
-        name: "Collina D'Estate Valpolicella",
-        price: "$61",
+        name: "Brigaldara Valpolicella",
+        price: "$58",
         description: ""
     },
     {
         category: "drinks-red",
-        name: "Beringer Founder's Pinot Noir",
-        price: "$70",
-        description: ""
-    },
-    {
-        category: "drinks-red",
-        name: "Campomaggio Chianti Classico",
+        name: "Evolution Pinot Noir",
         price: "$62",
         description: ""
     },
     {
         category: "drinks-red",
-        name: "Heavyweight Cabernet Sauvignon",
-        price: "$69",
+        name: "Villa Cafaggio Chianti Classico",
+        price: "$66",
         description: ""
     },
     {
         category: "drinks-red",
-        name: "Tommasi Amarone",
-        price: "$120",
+        name: "Aquinas Cabernet Sauvignon",
+        price: "$74",
         description: ""
     },
     {
         category: "drinks-red",
-        name: "Seghesio Barolo La Villa",
-        price: "$145",
-        description: ""
-    },
-    {
-        category: "drinks-red",
-        name: "Poggio Nero Brunello Montalcino",
+        name: "Zenato Amarone",
         price: "$125",
         description: ""
     },
     {
         category: "drinks-red",
-        name: "Vigneti Amarone della Valpolicella",
+        name: "Ascheri Barolo",
+        price: "$128",
+        description: ""
+    },
+    {
+        category: "drinks-red",
+        name: "Brunello di Montalcino ll Poggione",
         price: "$150",
         description: ""
     },
-    // Drinks Sparkling
     {
-        category: "drinks-sparkling",
-        name: "Moet & Chandon Brut",
-        price: "$176",
+        category: "drinks-red",
+        name: "Caymus Vineyards Cabernet",
+        price: "$250",
         description: ""
     },
     {
-        category: "drinks-sparkling",
-        name: "Cinzano Prosecco",
-        price: "$48",
+        category: "drinks-red",
+        name: "Amarone Della Valpolicella",
+        price: "$121",
+        description: ""
+    },
+    // Drinks Champagne
+    {
+        category: "drinks-champagne",
+        name: "Veuve Clicquot",
+        price: "$175",
         description: ""
     },
     {
-        category: "drinks-sparkling",
+        category: "drinks-champagne",
         name: "Dom Perignon",
-        price: "$450",
+        price: "$490",
         description: ""
     },
     {
-        category: "drinks-sparkling",
-        name: "Veuve Cliquot Brut Champagne",
-        price: "$150",
+        category: "drinks-champagne",
+        name: "Monet & Chandon Imperial",
+        price: "$225",
         description: ""
     },
 
     // Drinks Cognac
     {
         category: "drinks-cognac",
-        name: "Hennessy",
+        name: "Hennessy VSOP",
         price: "$13",
         description: ""
     },
