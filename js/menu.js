@@ -863,7 +863,7 @@ const menuItems = [
     },
     {
         category: "drinks-champagne",
-        name: "Monet & Chandon Imperial",
+        name: "Möet & Chandon Imperial",
         price: "$225",
         description: ""
     },
