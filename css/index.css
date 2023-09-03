@@ -49,4 +49,7 @@
         flex-direction: column-reverse;
         text-align: left;
     }
+    #hero p:last-child {
+        background-color: #000000;
+    }
 }
