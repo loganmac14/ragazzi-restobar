@@ -27,12 +27,12 @@
     }
 }
 
-#private-bookings .panel-container, #weekly-gatherings .panel-container {
+#private-bookings .panel-container, #weekly-gatherings .panel-container, #special-entertainment .panel-container {
     height: 80vh;
 }
 
 @media (max-width: 820px) {
-    #private-bookings .panel-container, #weekly-gatherings .panel-container {
+    #private-bookings .panel-container, #weekly-gatherings .panel-container, #special-entertainment .panel-container {
         height: 140vh;
     }
 }
