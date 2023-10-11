@@ -328,15 +328,9 @@ const menuItems = [
     },
     {
         category: "dinner-antipasti",
-        name: "Caesar",
+        name: "Caesar Salad",
         price: "$13",
         description: "Smoky bacon, toasted homemade croutons, classic Caesar dressing and Parmigiano"
-    },
-    {
-        category: "dinner-antipasti",
-        name: "Ragazzi Insalata",
-        price: "$15",
-        description: "Beet and goat cheese salad topped with candied walnuts and finished with a Dijon vinaigrette"
     },
     {
         category: "dinner-antipasti",
@@ -354,19 +348,19 @@ const menuItems = [
         category: "dinner-antipasti",
         name: "Antipasto Board",
         price: "$26",
-        description: "Cacciatore salami, prosciutto, Parmigiano, pecorino, olives and Italian medley"
+        description: "Salami, prosciutto, Parmigiano, olives, Italian medley and three crostini"
     },
     {
         category: "dinner-antipasti",
-        name: "Arancini",
-        price: "$16",
-        description: "2 pieces made with wild mushrooms, Parmigiano and pomodoro sauce"
+        name: "Polpette",
+        price: "$18",
+        description: "Three homemade meatballs stuffed with pork, veal, beef and ricotta cheese, finished in our homemade pomodoro sauce, topped with Parmigiano and served with two crostini"
     },
     {
         category: "dinner-antipasti",
         name: "Bruschetta",
         price: "$14 V",
-        description: "4 pieces of grilled crostini with fresh tomatoes, basil and olive oil"
+        description: "Four pieces of grilled crostini with fresh tomatoes, basil and olive oil"
     },
     {
         category: "dinner-antipasti",
@@ -403,7 +397,7 @@ const menuItems = [
     {
         category: "dinner-pasta-risotto",
         name: "Penne Florentina",
-        price: "$22 V",
+        price: "$23 V",
         description: "Traditional Italian pesto, mushrooms, peas and cherry tomatoes in a bechamel crema sauce (add chicken for $5)"
     },
     {
@@ -415,26 +409,26 @@ const menuItems = [
     {
         category: "dinner-pasta-risotto",
         name: "Linguine with Meatballs",
-        price: "$24",
+        price: "$25",
         description: "Homemade meatballs in a pomodoro sauce with Parmigiano"
-    },
-    {
-        category: "dinner-pasta-risotto",
-        name: "Lobster Tagliatelle",
-        price: "$34",
-        description: "5oz Lobster tail, cherry tomatoes, garlic, fennel, brandy in a cream sauce"
-    },
-    {
-        category: "dinner-pasta-risotto",
-        name: "Risotto di Mare",
-        price: "$32 GF",
-        description: "Shrimps, scallops, and mussels, in a Pomodoro sauce"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Mushroom Risotto",
         price: "$27 GF",
-        description: "Porcini, Portobello and Cremini mushrooms finished with parmigiano"
+        description: "Porcini, Portobello and Cremini mushrooms finished with Parmigiano"
+    },
+    {
+        category: "dinner-pasta-risotto",
+        name: "Penne Fantasia (Spicy)",
+        price: "$26",
+        description: "Penne with grilled sausage, peas and peppers, served with a rosé sauce"
+    },
+    {
+        category: "dinner-pasta-risotto",
+        name: "Spaghetti Carbonara",
+        price: "$24",
+        description: "Guanciale, Pecorino cheese and egg yolk"
     },
     {
         category: "dinner-pasta-risotto",
@@ -452,57 +446,27 @@ const menuItems = [
     },
     {
         category: "dinner-entree",
-        name: "Vegetarian Lasagna",
-        price: "$27 V",
-        description: "A three-layered lasagna with grilled zucchini, grilled eggplant, spinach and ricotta made with fresh lasagna sheets and a tomato and bechamel sauce finished with mozzarella and Parmigiano"
-    },
-    {
-        category: "dinner-entree",
         name: "Chicken or Veal Parmigiano",
         price: "$35",
         description: "Breaded cutlets, mozzarella cheese and pomodoro sauce with a side of tagliatelle in a rosé sauce"
     },
     {
         category: "dinner-entree",
-        name: "Ragazzi Style Haddock",
-        price: "$27",
-        description: "Blackened 8oz fillet with a cranberry salsa served with daily starch and vegetables"
-    },
-    {
-        category: "dinner-entree",
-        name: "Chicken Cacciatore",
-        price: "$31",
-        description: "7oz bone-in supreme chicken topped with green peppers and mushrooms finished with a tomato glaze accompanied with tagliatelle in a rosé sauce"
-    },
-    {
-        category: "dinner-entree",
-        name: "Lamb Shank",
-        price: "$37",
-        description: "Braised for 4 hours in its own natural jus with fresh rosemary, served with daily starch and vegetables"
-    },
-    {
-        category: "dinner-entree",
-        name: "Striploin Steak",
-        price: "$39",
-        description: "9oz AAA Striploin in red wine mushroom sauce with daily starch"
-    },
-    {
-        category: "dinner-entree",
-        name: "Seasonal vegetable add-ons",
-        price: "",
-        description: "Sauteed mushrooms ($5); 3 shrimps ($9); 5oz NS Lobster tail ($15)"
-    },
-    {
-        category: "dinner-entree",
-        name: "Halibut Rustica",
-        price: "$35",
-        description: "Pan-seared Halibut with a smoky bacon and brussel sprout hash topped with a bearnaise sauce"
+        name: "Surf n Turf",
+        price: "$49",
+        description: "10oz AAA striploin in a red wine mushroom sauce and a 5oz lobster tail Seasonal vegetable add-ons: sauteed mushrooms ($5), 3 shrimps ($9)"
     },
     {
         category: "dinner-entree",
         name: "Seafood Platter",
-        price: "MP",
-        description: "Please ask your server for today's special"
+        price: "$50",
+        description: "Cold seafood: six oysters, five shrimps, lobster tail, with a half bowl of warm mussels in your choice of white wine or pomodoro sauce, served with four warm crostini"
+    },
+    {
+        category: "dinner-entree",
+        name: "Pesce e Fritto (Italian Style Fish and Chips)",
+        price: "$27",
+        description: "Ragazzi style fish and chips, basil and white wine battered, served with homemade frites"
     },
     // Dinner Pizza
     {
@@ -515,7 +479,7 @@ const menuItems = [
         category: "dinner-pizza",
         name: "Pizza Margherita",
         price: "$17",
-        description: "Pomodoro sauce and fior di latte cheese with fresh basil"
+        description: "Pomodoro sauce and fior di latte cheese with fresh basil and sliced tomatoes"
     },
     {
         category: "dinner-pizza",
@@ -527,27 +491,13 @@ const menuItems = [
         category: "dinner-pizza",
         name: "Pizza Vegetariana",
         price: "$18 V",
-        description: "Pomodoro sauce, fior di latte cheese and vegetables"
+        description: "Pomodoro sauce, fior di latte cheese, peppers, mushrooms, peas, onions and green olives"
     },
     {
         category: "dinner-pizza",
-        name: "Pizza Laura Forza",
-        price: "$20",
-        description: "Chicken, green olives and mushrooms"
-    },
-
-    // Dinner Sides
-    {
-        category: "dinner-sides",
-        name: "Frittes with Parmigiano and Thyme",
-        price: "$9",
-        description: ""
-    },
-    {
-        category: "dinner-sides",
-        name: "5oz Nova Scotia Lobster Tail",
-        price: "$15",
-        description: ""
+        name: "Pizza Ragazzi",
+        price: "$22",
+        description: "Pomodoro sauce, fior di latte cheese, grilled sausage, green olives, feta cheese, fresh basil and peppers"
     },
     // Dinner Dolce
     {
