@@ -9,7 +9,7 @@ const menuItems = [
     {
         category: "lunch-antipasti",
         name: "Caprese Salad",
-        price: "$15",
+        price: "$15 V",
         description: "Fresh mozzarella cheese, fresh ripe tomatoes and Sicilian olives in Tuscan bomba oil with balsamic glaze"
     },
     {
@@ -20,9 +20,9 @@ const menuItems = [
     },
     {
         category: "lunch-antipasti",
-        name: "Ragazzi Insalata",
-        price: "$15",
-        description: "Beet and goat cheese salad topped with candied walnuts and finished with a Dijon vinaigrette"
+        name: "Polpette",
+        price: "$18",
+        description: "Three homemade meatballs stuffed with pork, veal, beef and ricotta cheese, finished in our homemade pomodoro sauce, topped with Parmigiano and served with two crostini"
     },
     {
         category: "lunch-antipasti",
@@ -88,6 +88,12 @@ const menuItems = [
     },
     {
         category: "lunch-pasta-risotto",
+        name: "Penne Fantasia (Spicy)",
+        price: "$21 V",
+        description: "Grilled sausage, peas and peppers served in a rosé"
+    },
+    {
+        category: "lunch-pasta-risotto",
         name: "Tagliatelle alla Bolognese",
         price: "$22",
         description: "Beef, pork and veal in a homemade Italian-style meat sauce"
@@ -112,29 +118,22 @@ const menuItems = [
     },
     {
         category: "lunch-pasta-risotto",
-        name: "Mushroom Risotto",
-        price: "$24 GF",
-        description: "Porcini, Portobello and Cremini mushrooms finished with Parmigiano"
-    },
-    {
-        category: "lunch-pasta-risotto",
         name: "Nonna's Homemade Gnocchi",
         price: "$24 V",
         description: "Choice of rosé, tomato or meat sauce"
     },
-
+    {
+        category: "lunch-pasta-risotto",
+        name: "Spaghetti Carbonara",
+        price: "$24",
+        description: "Guanciale, pecorino cheese and egg yolk"
+    },
     // Lunch Entree
     {
         category: "lunch-entree",
         name: "Nonna's Lasagna",
         price: "$25",
-        description: "Classic homemade three-meat lasagna topped with bechamel sauce and served with a choice of salad"
-    },
-    {
-        category: "lunch-entree",
-        name: "Vegetarian Lasagna",
-        price: "$25 V",
-        description: "A three-layered lasagna with grilled zucchini, grilled eggplant, spinach and ricotta made with fresh lasagna sheets and a tomato and bechamel sauce finished with mozzarella and Parmigiano"
+        description: "Classic homemade three-meat lasagna topped with bechamel sauce and served with Caesar salad"
     },
     {
         category: "lunch-entree",
@@ -144,9 +143,9 @@ const menuItems = [
     },
     {
         category: "lunch-entree",
-        name: "Ragazzi Style Haddock",
-        price: "$24",
-        description: "Blackened 8oz fillet with a cranberry salsa served with daily starch and vegetables"
+        name: "Pesce e Fritto",
+        price: "$27",
+        description: "Ragazzi-style fish and chips, basil and white wine battered haddock served with homemade frittes"
     },
 
     // Lunch Sandwich
@@ -173,12 +172,6 @@ const menuItems = [
         name: "Amalfi Chicken Panini",
         price: "$17",
         description: "Chicken, tomatoes, pancetta, arugula, provolone and garlic aioli served on focaccia"
-    },
-    {
-        category: "lunch-sandwich",
-        name: "Breaded Haddock Burger",
-        price: "$18",
-        description: "6oz breaded haddock, pickles, homemade tartar sauce and greens"
     },
 
     // Lunch Pizza
@@ -208,9 +201,9 @@ const menuItems = [
     },
     {
         category: "lunch-pizza",
-        name: "Pizza Laura Forza",
+        name: "Pizza Ragazzi",
         price: "$20",
-        description: "Chicken, green olives and mushrooms"
+        description: "Pomodoro sauce, fior di latte cheese, sausage, green olives, feta cheese, fresh basil and peppers"
     },
 
     // Lunch Sides
