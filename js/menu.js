@@ -583,7 +583,7 @@ const menuItems = [
         category: "drinks-cocktails",
         name: "Alla Laura Espresso Martini",
         price: "$15",
-        description: "Grey Goose Vodka, Kahlua"
+        description: "Grey Goose Vodka, Kahlua, Espresso"
     },
     {
         category: "drinks-cocktails",
@@ -595,13 +595,13 @@ const menuItems = [
         category: "drinks-cocktails",
         name: "Negroni Petricola",
         price: "$15",
-        description: "Bombay Gin, Vermouth, Camprie"
+        description: "Bombay Gin, Vermouth, Campari"
     },
     {
         category: "drinks-cocktails",
-        name: "Blueberry Smash",
+        name: "Blueberry Passione",
         price: "$15",
-        description: "Barrelling Tide Vodka, Barrelling Tide Blueberry liqueur, lemon soda, blueberries and mint"
+        description: "Barrelling Tide Vodka, Barrelling Tide Blueberry Liqueur, Lemon, Soda, Blueberries, Mint"
     },
     {
         category: "drinks-cocktails",
@@ -619,19 +619,25 @@ const menuItems = [
         category: "drinks-cocktails",
         name: "Limoncello Mojito",
         price: "$15",
-        description: "Limoncello, Rum, Simple Syrup"
+        description: "Limoncello, Rum, Simple Syrup, Mint"
     },
     {
         category: "drinks-cocktails",
         name: "Bloody Caesar Alla Tony",
         price: "$15",
-        description: "Ragazzi style Caesar, celery, lemon, olives, sausage, and beans"
+        description: "Ragazzi-Style Caesar, Celery, Lemon, Olives, Sausage, Beans"
+    },
+    {
+        category: "drinks-cocktails",
+        name: "Bacca Rossa",
+        price: "$15",
+        description: "Barrelling Tid Rum, Barrelling Tide Cranberry Liqueur, Orange Juice, Soda, Lemon, Mint"
     },
     {
         category: "drinks-cocktails",
         name: "Ragazzi Strawberry Mango Daiquiri",
         price: "$15",
-        description: "Strawberry, Mango, Rum, Simple Syrup, and lots of love"
+        description: "Strawberry, Mango, Rum, Simple Syrup, and Lots of Love"
     },
     {
         category: "drinks-cocktails",
@@ -649,31 +655,31 @@ const menuItems = [
     {
         category: "drinks-white",
         name: "Pinot Grigio",
-        price: "$14 / $16 / $49",
+        price: "$14 / $16 / $50",
         description: ""
     },
     {
         category: "drinks-white",
         name: "Chardonnay",
-        price: "$14 / $16 / $49",
+        price: "$14 / $16 / $51",
         description: ""
     },
     {
         category: "drinks-white",
         name: "Rose",
-        price: "$11 / $14 / $45",
+        price: "$11 / $13 / $47",
         description: ""
     },
     {
         category: "drinks-white",
         name: "",
         price: "",
-        description: "6oz / Bottle"
+        description: "7oz / Bottle"
     },
     {
         category: "drinks-white",
         name: "Prosecco",
-        price: "$12 / $48",
+        price: "$13 / $48",
         description: ""
     },
     {
@@ -684,26 +690,32 @@ const menuItems = [
     },
     {
         category: "drinks-white",
-        name: "Roys Hill Sauvignon Blanc",
-        price: "$56",
+        name: "Valley SB Sauvignon Blanc",
+        price: "$58",
         description: ""
     },
     {
         category: "drinks-white",
-        name: "Barnoe di Valforte",
-        price: "$57",
-        description: ""
-    },
-    {
-        category: "drinks-white",
-        name: "Livon Pinot Grigio",
-        price: "$66",
-        description: ""
-    },
-    {
-        category: "drinks-white",
-        name: "Brocard Chablis",
+        name: "Laroche Les Chanoines Chablis",
         price: "$82",
+        description: ""
+    },
+    {
+        category: "drinks-white",
+        name: "Moselland Ars Vitis Riesling",
+        price: "$82",
+        description: ""
+    },
+    {
+        category: "drinks-white",
+        name: "Straccali PG Pinot Grigio",
+        price: "$61",
+        description: ""
+    },
+    {
+        category: "drinks-white",
+        name: "Alois Lagedar Chardonnay",
+        price: "$125",
         description: ""
     },
     // Drinks - Red
@@ -739,56 +751,50 @@ const menuItems = [
     },
     {
         category: "drinks-red",
-        name: "Brigaldara Valpolicella",
-        price: "$58",
+        name: "Carpineto Toscana Cabernet Sauvignon",
+        price: "$80",
         description: ""
     },
     {
         category: "drinks-red",
-        name: "Evolution Pinot Noir",
+        name: "Tedeschi Amarone",
+        price: "$120",
+        description: ""
+    },
+    {
+        category: "drinks-red",
+        name: "Tommasi Ripasso",
         price: "$62",
         description: ""
     },
     {
         category: "drinks-red",
-        name: "Villa Cafaggio Chianti Classico",
-        price: "$66",
+        name: "Antinori Rosso Di Montalcino",
+        price: "$82",
         description: ""
     },
     {
         category: "drinks-red",
-        name: "Aquinas Cabernet Sauvignon",
-        price: "$74",
+        name: "Allegrini Valpolicella",
+        price: "$58",
         description: ""
     },
     {
         category: "drinks-red",
-        name: "Zenato Amarone",
-        price: "$125",
-        description: ""
-    },
-    {
-        category: "drinks-red",
-        name: "Ascheri Barolo",
-        price: "$128",
-        description: ""
-    },
-    {
-        category: "drinks-red",
-        name: "Brunello di Montalcino ll Poggione",
-        price: "$150",
+        name: "Brunello Di Montalcino Il Poggione",
+        price: "$145",
         description: ""
     },
     {
         category: "drinks-red",
         name: "Caymus Vineyards Cabernet",
-        price: "$250",
+        price: "$240",
         description: ""
     },
     {
         category: "drinks-red",
-        name: "Amarone Della Valpolicella",
-        price: "$121",
+        name: "Ascheri Barolo",
+        price: "$120",
         description: ""
     },
     // Drinks Champagne
@@ -815,13 +821,13 @@ const menuItems = [
     {
         category: "drinks-cognac",
         name: "Hennessy VSOP",
-        price: "$13",
+        price: "$15",
         description: ""
     },
     {
         category: "drinks-cognac",
         name: "Remy Martin VSOP",
-        price: "$18",
+        price: "$19",
         description: ""
     },
     {
@@ -835,13 +841,13 @@ const menuItems = [
     {
         category: "drinks-single-malts",
         name: "Lagavulin 16 Years",
-        price: "$20",
+        price: "$21",
         description: ""
     },
     {
         category: "drinks-single-malts",
         name: "Oban 14 Years",
-        price: "$19",
+        price: "$20",
         description: ""
     },
     {
@@ -859,7 +865,19 @@ const menuItems = [
     {
         category: "drinks-single-malts",
         name: "Anchentoshan 12 years",
-        price: "$13",
+        price: "$14",
+        description: ""
+    },
+    {
+        category: "drinks-single-malts",
+        name: "Glenfiddich 12 years",
+        price: "$14",
+        description: ""
+    },
+    {
+        category: "drinks-single-malts",
+        name: "The Balvenie 12 years",
+        price: "$15",
         description: ""
     },
     // Drinks Rum
@@ -878,37 +896,31 @@ const menuItems = [
     {
         category: "drinks-rum",
         name: "El Dorado 12 Years",
-        price: "$14",
+        price: "$15",
         description: ""
     },
     {
         category: "drinks-rum",
-        name: "El Rodado 15 Years",
-        price: "$17",
+        name: "El Dorado 15 Years",
+        price: "$18",
         description: ""
     },
     {
         category: "drinks-rum",
-        name: "Havana Club",
-        price: "$12",
+        name: "Havana Reserva Club",
+        price: "$10",
         description: ""
     },
     {
         category: "drinks-rum",
         name: "Diplomatico",
-        price: "$12",
-        description: ""
-    },
-    {
-        category: "drinks-rum",
-        name: "Plantation",
         price: "$13",
         description: ""
     },
     {
         category: "drinks-rum",
-        name: "Zacapa",
-        price: "$15",
+        name: "Ron Zacapa 23 Years",
+        price: "$18",
         description: ""
     },
 
@@ -916,37 +928,63 @@ const menuItems = [
     {
         category: "drinks-tequila",
         name: "Patron Anejo",
-        price: "$18",
+        price: "$24",
         description: ""
     },
     {
         category: "drinks-tequila",
-        name: "Patron Agave",
-        price: "$16",
+        name: "Patron Silver",
+        price: "$21",
         description: ""
     },
     {
         category: "drinks-tequila",
         name: "Don Julio Reposado",
-        price: "$15",
+        price: "$16",
         description: ""
     },
     {
         category: "drinks-tequila",
         name: "Casamigos",
-        price: "$15",
+        price: "$16",
         description: ""
     },
     {
         category: "drinks-tequila",
-        name: "Hornitos Black Barrel",
+        name: "1800 Reposado",
+        price: "$13",
+        description: ""
+    },
+    {
+        category: "drinks-tequila",
+        name: "Hornitos",
+        price: "$10",
+        description: ""
+    },
+    
+    // Drinks Scotch
+    {
+        category: "drinks-scotch",
+        name: "",
+        price: "",
+        description: "Johnnie Walker Blended"
+    },
+    {
+        category: "drinks-scotch",
+        name: "Red Label",
+        price: "$11",
+        description: ""
+    },
+    {
+        category: "drinks-scotch",
+        name: "Black Label",
         price: "$12",
         description: ""
     },
     {
-        category: "drinks-tequila",
-        name: "Teremana",
-        price: "$14",
+        category: "drinks-scotch",
+        name: "Gold Label Reserve",
+        price: "$15",
         description: ""
     },
     // Drinks Gin
@@ -959,25 +997,25 @@ const menuItems = [
     {
         category: "drinks-gin",
         name: "Ungava",
-        price: "$11",
+        price: "$12",
         description: ""
     },
     {
         category: "drinks-gin",
         name: "Tanqueray",
-        price: "$11",
+        price: "$12",
         description: ""
     },
     {
         category: "drinks-gin",
         name: "Bombay",
-        price: "$11",
+        price: "$13",
         description: ""
     },
     {
         category: "drinks-gin",
         name: "Hendrick's",
-        price: "$11",
+        price: "$13",
         description: ""
     },
 
@@ -991,7 +1029,7 @@ const menuItems = [
     {
         category: "drinks-bourbon",
         name: "Woodford Reserve",
-        price: "$14",
+        price: "$15",
         description: ""
     },
     {
@@ -1009,7 +1047,7 @@ const menuItems = [
     {
         category: "drinks-bourbon",
         name: "Maker's Mark",
-        price: "$11",
+        price: "$10",
         description: ""
     },
 
@@ -1029,19 +1067,25 @@ const menuItems = [
     {
         category: "drinks-vodka",
         name: "Belvedere",
-        price: "$11",
-        description: ""
-    },
-    {
-        category: "drinks-vodka",
-        name: "Ciroc",
         price: "$12",
         description: ""
     },
     {
         category: "drinks-vodka",
+        name: "Ciroc Blue",
+        price: "$13",
+        description: ""
+    },
+    {
+        category: "drinks-vodka",
         name: "Tito's",
-        price: "$11",
+        price: "$12",
+        description: ""
+    },
+    {
+        category: "drinks-vodka",
+        name: "Ciroc Peach",
+        price: "$13",
         description: ""
     },
 
@@ -1049,25 +1093,19 @@ const menuItems = [
     {
         category: "drinks-beer",
         name: "Corona",
-        price: "$8",
-        description: ""
-    },
-    {
-        category: "drinks-beer",
-        name: "Olands",
-        price: "$8",
+        price: "$9",
         description: ""
     },
     {
         category: "drinks-beer",
         name: "Peroni",
-        price: "$8",
+        price: "$9",
         description: ""
     },
     {
         category: "drinks-beer",
-        name: "Stella",
-        price: "$8",
+        name: "Stella Artois",
+        price: "$9",
         description: ""
     },
     {
@@ -1082,55 +1120,28 @@ const menuItems = [
         price: "$8",
         description: ""
     },
-
-    // Drinks Scotch
-    {
-        category: "drinks-scotch",
-        name: "",
-        price: "",
-        description: "Johnnie Walker Blended"
-    },
-    {
-        category: "drinks-scotch",
-        name: "Red Label",
-        price: "$9",
-        description: ""
-    },
-    {
-        category: "drinks-scotch",
-        name: "Black Label",
-        price: "$12",
-        description: ""
-    },
-    {
-        category: "drinks-scotch",
-        name: "Gold Label Reserve",
-        price: "$15",
-        description: ""
-    },
-
     // Drinks Beverages
     {
         category: "drinks-beverages",
         name: "San Pellegrino (500ml)",
-        price: "$6",
+        price: "$11",
         description: ""
     },
     {
         category: "drinks-beverages",
         name: "Aqua Panna (500ml)",
-        price: "$6",
+        price: "$12",
         description: ""
     },
     {
         category: "drinks-beverages",
         name: "Pop",
-        price: "$4",
+        price: "$15",
         description: ""
     },
     {
         category: "drinks-beverages",
-        name: "Italian Pops",
+        name: "Aranciata",
         price: "$5",
         description: ""
     },
@@ -1145,33 +1156,27 @@ const menuItems = [
     {
         category: "drinks-cafe",
         name: "Espresso",
-        price: "$4",
+        price: "$11",
         description: ""
     },
     {
         category: "drinks-cafe",
         name: "Cappuccino",
-        price: "$5",
+        price: "$12",
         description: ""
     },
     {
         category: "drinks-cafe",
         name: "Café Americano",
-        price: "$5",
+        price: "$15",
         description: ""
     },
     {
         category: "drinks-cafe",
         name: "Latte Macchiato",
-        price: "$6",
+        price: "$5",
         description: ""
     },
-    {
-        category: "drinks-cafe",
-        name: "Specialty Tea",
-        price: "$3",
-        description: ""
-    }
 ];
 
 // Helper function to display menu items in a specified content container
