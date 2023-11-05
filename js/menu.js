@@ -890,7 +890,7 @@ const menuItems = [
     {
         category: "drinks-rum",
         name: "Sea Fever",
-        price: "$9",
+        price: "$10",
         description: ""
     },
     {
