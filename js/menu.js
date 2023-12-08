@@ -594,7 +594,7 @@ const menuItems = [
     {
         category: "drinks-cocktails",
         name: "Negroni Petricola",
-        price: "$15",
+        price: "$16",
         description: "Bombay Gin, Vermouth, Campari"
     },
     {
@@ -793,8 +793,8 @@ const menuItems = [
     },
     {
         category: "drinks-red",
-        name: "Ascheri Barolo",
-        price: "$120",
+        name: "Barolo Leondardo's Pick",
+        price: "$130",
         description: ""
     },
     // Drinks Champagne
@@ -864,29 +864,23 @@ const menuItems = [
     },
     {
         category: "drinks-single-malts",
-        name: "Anchentoshan 12 years",
+        name: "Anchentoshan 12 Years",
         price: "$14",
         description: ""
     },
     {
         category: "drinks-single-malts",
-        name: "Glenfiddich 12 years",
+        name: "Glenfiddich 12 Years",
         price: "$14",
         description: ""
     },
     {
         category: "drinks-single-malts",
-        name: "The Balvenie 12 years",
+        name: "The Balvenie 12 Years",
         price: "$15",
         description: ""
     },
     // Drinks Rum
-    {
-        category: "drinks-rum",
-        name: "Barrelling Tide Rum",
-        price: "$7",
-        description: ""
-    },
     {
         category: "drinks-rum",
         name: "Sea Fever",
@@ -990,12 +984,6 @@ const menuItems = [
     // Drinks Gin
     {
         category: "drinks-gin",
-        name: "Barrelling Tide Gin",
-        price: "$7",
-        description: ""
-    },
-    {
-        category: "drinks-gin",
         name: "Ungava",
         price: "$12",
         description: ""
@@ -1054,12 +1042,6 @@ const menuItems = [
     // Drinks Vodka
     {
         category: "drinks-vodka",
-        name: "Barrelling Tide Vodka",
-        price: "$7",
-        description: ""
-    },
-    {
-        category: "drinks-vodka",
         name: "Grey Goose",
         price: "$11",
         description: ""
@@ -1088,7 +1070,12 @@ const menuItems = [
         price: "$13",
         description: ""
     },
-
+    {
+        category: "drinks-vodka",
+        name: "Skeleton Vodka",
+        price: "$15",
+        description: ""
+    },
     // Drinks Beer
     {
         category: "drinks-beer",
@@ -1098,13 +1085,13 @@ const menuItems = [
     },
     {
         category: "drinks-beer",
-        name: "Peroni",
+        name: "Birra Moretti",
         price: "$9",
         description: ""
     },
     {
         category: "drinks-beer",
-        name: "Stella Artois",
+        name: "Heineken",
         price: "$9",
         description: ""
     },
@@ -1124,24 +1111,24 @@ const menuItems = [
     {
         category: "drinks-beverages",
         name: "San Pellegrino (500ml)",
-        price: "$11",
+        price: "$6",
         description: ""
     },
     {
         category: "drinks-beverages",
         name: "Aqua Panna (500ml)",
-        price: "$12",
+        price: "$6",
         description: ""
     },
     {
         category: "drinks-beverages",
         name: "Pop",
-        price: "$15",
+        price: "$4",
         description: ""
     },
     {
         category: "drinks-beverages",
-        name: "Aranciata",
+        name: "Aranciata/Fanta",
         price: "$5",
         description: ""
     },
@@ -1156,19 +1143,19 @@ const menuItems = [
     {
         category: "drinks-cafe",
         name: "Espresso",
-        price: "$11",
+        price: "$4",
         description: ""
     },
     {
         category: "drinks-cafe",
         name: "Cappuccino",
-        price: "$12",
+        price: "$5",
         description: ""
     },
     {
         category: "drinks-cafe",
         name: "Café Americano",
-        price: "$15",
+        price: "$5",
         description: ""
     },
     {
