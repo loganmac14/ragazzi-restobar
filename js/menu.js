@@ -40,7 +40,7 @@ const menuItems = [
         category: "lunch-antipasti",
         name: "Antipasto Board",
         price: "$26",
-        description: "Cacciatore salami, prosciutto, parmigiano, pecorino, olives and Italian medley"
+        description: "Cacciatore salami, prosciutto, Parmigiano, pecorino, olives and Italian medley"
     },
     {
         category: "lunch-antipasti",
@@ -137,7 +137,7 @@ const menuItems = [
     },
     {
         category: "lunch-entree",
-        name: "Chicken or Veal Parmigiano",
+        name: "Chicken or Veal Parmigiana",
         price: "$31",
         description: "Breaded cutlets, mozzarella cheese and pomodoro sauce with a side of tagliatelle in a rosé sauce"
     },
@@ -219,7 +219,57 @@ const menuItems = [
         price: "$15",
         description: ""
     },
-
+    // Lunch Gluten-Free
+    {
+        category: "lunch-gluten-free",
+        name: "Risotto Di Mare",
+        price: "$32",
+        description: "Shrimps, scallops, mussels, Pomodoro sauce"
+    },
+    {
+        category: "lunch-gluten-free",
+        name: "Penne Primavera",
+        price: "$21",
+        description: "Mushrooms, peppers, Pomodoro sauce"
+    },
+    {
+        category: "lunch-gluten-free",
+        name: "Pizza Semplice",
+        price: "$25",
+        description: "Pomodoro sauce, mozzarella, mushrooms, peppers (GF crust not made in-house). Ask server for add-ons."
+    },
+    // Lunch Vegetarian
+    {
+        category: "lunch-vegetarian",
+        name: "Mushroom Risotto",
+        price: "$27",
+        description: "Porcini, portobello, creminin mushrooms, finished with Parmigiano"
+    },
+    {
+        category: "lunch-vegetarian",
+        name: "Nonna's Homemade Gnocchi",
+        price: "$24",
+        description: "Choice of rose, tomato, or pesto"
+    },
+    {
+        category: "lunch-vegetarian",
+        name: "Penne Florentina",
+        price: "$23",
+        description: "Traditional Italian pesto, mushrooms, cherry tomatoes, bechamel cream"
+    },
+    // Lunch Vegan
+    {
+        category: "lunch-vegan",
+        name: "Grilled Eggplant Parmigiana",
+        price: "$24",
+        description: "Two slices eggplant, Pomodoro sauce, vegan mozzarella with side salad"
+    },
+    {
+        category: "lunch-vegan",
+        name: "Vegan Bowl",
+        price: "$22",
+        description: "Roasted cauliflower, chickpeas, white kidney beans, carrts, peas with side salad"
+    },
     // Lunch Dolce
     {
         category: "lunch-dolce",
@@ -439,7 +489,7 @@ const menuItems = [
     },
     {
         category: "dinner-entree",
-        name: "Chicken or Veal Parmigiano",
+        name: "Chicken or Veal Parmigiana",
         price: "$35",
         description: "Breaded cutlets, mozzarella cheese and pomodoro sauce with a side of tagliatelle in a rosé sauce"
     },
@@ -491,6 +541,57 @@ const menuItems = [
         name: "Pizza Ragazzi",
         price: "$22",
         description: "Pomodoro sauce, fior di latte cheese, grilled sausage, green olives, feta cheese, fresh basil and peppers"
+    },
+    // Dinner Gluten-Free
+    {
+        category: "dinner-gluten-free",
+        name: "Risotto Di Mare",
+        price: "$32",
+        description: "Shrimps, scallops, mussels, Pomodoro sauce"
+    },
+    {
+        category: "dinner-gluten-free",
+        name: "Penne Primavera",
+        price: "$21",
+        description: "Mushrooms, peppers, Pomodoro sauce"
+    },
+    {
+        category: "dinner-gluten-free",
+        name: "Pizza Semplice",
+        price: "$25",
+        description: "Pomodoro sauce, mozzarella, mushrooms, peppers (GF crust not made in-house). Ask server for add-ons."
+    },
+    // Dinner Vegetarian
+    {
+        category: "dinner-vegetarian",
+        name: "Mushroom Risotto",
+        price: "$27",
+        description: "Porcini, portobello, creminin mushrooms, finished with Parmigiano"
+    },
+    {
+        category: "dinner-vegetarian",
+        name: "Nonna's Homemade Gnocchi",
+        price: "$24",
+        description: "Choice of rose, tomato, or pesto"
+    },
+    {
+        category: "dinner-vegetarian",
+        name: "Penne Florentina",
+        price: "$23",
+        description: "Traditional Italian pesto, mushrooms, cherry tomatoes, bechamel cream"
+    },
+    // Dinner Vegan
+    {
+        category: "dinner-vegan",
+        name: "Grilled Eggplant Parmigiana",
+        price: "$24",
+        description: "Two slices eggplant, Pomodoro sauce, vegan mozzarella with side salad"
+    },
+    {
+        category: "dinner-vegan",
+        name: "Vegan Bowl",
+        price: "$22",
+        description: "Roasted cauliflower, chickpeas, white kidney beans, carrts, peas with side salad"
     },
     // Dinner Dolce
     {
