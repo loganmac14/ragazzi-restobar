@@ -243,13 +243,13 @@ const menuItems = [
         category: "lunch-vegetarian",
         name: "Mushroom Risotto",
         price: "$27",
-        description: "Porcini, portobello, creminin mushrooms, finished with Parmigiano"
+        description: "Oyster, Porcini and Cremini mushrooms"
     },
     {
         category: "lunch-vegetarian",
         name: "Nonna's Homemade Gnocchi",
         price: "$24",
-        description: "Choice of rose, tomato, or pesto"
+        description: "Choice of rosé, tomato, or pesto"
     },
     {
         category: "lunch-vegetarian",
@@ -268,7 +268,7 @@ const menuItems = [
         category: "lunch-vegan",
         name: "Vegan Bowl",
         price: "$22",
-        description: "Roasted cauliflower, chickpeas, white kidney beans, carrts, peas with side salad"
+        description: "Rice, roasted carrots, cauliflower, kidney beans, chickpeas and peas, finished with a creamy, herby Tahini dressing"
     },
     // Lunch Dolce
     {
@@ -566,13 +566,13 @@ const menuItems = [
         category: "dinner-vegetarian",
         name: "Mushroom Risotto",
         price: "$27",
-        description: "Porcini, portobello, creminin mushrooms, finished with Parmigiano"
+        description: "Oyster, Porcini and Cremini mushrooms"
     },
     {
         category: "dinner-vegetarian",
         name: "Nonna's Homemade Gnocchi",
         price: "$24",
-        description: "Choice of rose, tomato, or pesto"
+        description: "Choice of rosé, tomato, or pesto"
     },
     {
         category: "dinner-vegetarian",
@@ -591,7 +591,7 @@ const menuItems = [
         category: "dinner-vegan",
         name: "Vegan Bowl",
         price: "$22",
-        description: "Roasted cauliflower, chickpeas, white kidney beans, carrts, peas with side salad"
+        description: "Rice, roasted carrots, cauliflower, kidney beans, chickpeas and peas, finished with a creamy, herby Tahini dressing"
     },
     // Dinner Dolce
     {
