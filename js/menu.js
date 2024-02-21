@@ -730,12 +730,6 @@ const menuItems = [
     },
     {
         category: "drinks-cocktails",
-        name: "Bacca Rossa",
-        price: "$15",
-        description: "Barrelling Tid Rum, Barrelling Tide Cranberry Liqueur, Orange Juice, Soda, Lemon, Mint"
-    },
-    {
-        category: "drinks-cocktails",
         name: "Ragazzi Strawberry Mango Daiquiri",
         price: "$15",
         description: "Strawberry, Mango, Rum, Simple Syrup, and Lots of Love"
