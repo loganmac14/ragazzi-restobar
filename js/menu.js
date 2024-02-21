@@ -483,39 +483,39 @@ const menuItems = [
         category: "dinner-pasta-risotto",
         name: "Penne al Forno",
         price: "$27",
-        description: "Ragazzi-style mac’n’cheese with pancetta and peas in a béchamel cream sauce"
+        description: "Ragazzi-style mac’n’cheese with pancetta and peas in a bechamel cream sauce"
     },
 
     // Dinner Entree
     {
         category: "dinner-entree",
         name: "Nonna's Lasagna",
-        price: "$27",
+        price: "$29",
         description: "Classic homemade three-meat lasagna topped with bechamel sauce and served with a choice of salad"
     },
     {
         category: "dinner-entree",
         name: "Chicken or Veal Parmigiana",
-        price: "$35",
+        price: "$37",
         description: "Breaded cutlets, mozzarella cheese and pomodoro sauce with a side of tagliatelle in a rosé sauce"
     },
     {
         category: "dinner-entree",
-        name: "Surf n Turf",
-        price: "$49",
-        description: "10oz AAA striploin in a red wine mushroom sauce and a 5oz lobster tail Seasonal vegetable add-ons: sauteed mushrooms ($5), 3 shrimps ($9)"
+        name: "Zuppa di Pesce",
+        price: "$48",
+        description: "Two shrimps, two scallops, mussels, topped with an Atlantic saltwater perch in Pomodoro sauce, served with three crostini"
     },
     {
         category: "dinner-entree",
         name: "Seafood Platter",
-        price: "$50",
-        description: "Cold seafood: six oysters, five shrimps, lobster tail, with a half bowl of warm mussels in your choice of white wine or pomodoro sauce, served with four warm crostini"
+        price: "MP",
+        description: "Six oysters, five shrimps, 5oz lobster tail on ice, and cooked mussels in your choice of white wine or pomodoro sauce"
     },
     {
         category: "dinner-entree",
-        name: "Pesce e Fritto (Italian Style Fish and Chips)",
+        name: "Mari e Monti",
         price: "$27",
-        description: "Ragazzi style fish and chips, basil and white wine battered, served with homemade frites"
+        description: "10 oz AAA striploin topped with red wine mushroom sauce and a 5oz Nova Scotia lobster tail, served with seasonal vegetables"
     },
     // Dinner Pizza
     {
