@@ -428,56 +428,62 @@ const menuItems = [
     {
         category: "dinner-pasta-risotto",
         name: "Linguine Pescatore",
-        price: "$33",
-        description: "Shrimps, scallops, and mussels in a pomodoro sauce"
+        price: "$36",
+        description: "Two shrimps, two scallops, and mussels in a pomodoro sauce"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Penne alla Vodka",
-        price: "$24",
+        price: "$26",
         description: "Onions, garlic, Parmigiano, and pancetta in a rosé cream sauce"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Penne Florentina",
-        price: "$23 V",
+        price: "$27 V",
         description: "Traditional Italian pesto, mushrooms, peas and cherry tomatoes in a bechamel crema sauce (add chicken for $5)"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Tagliatelle alla Bolognese",
-        price: "$24",
+        price: "$27",
         description: "Beef, pork and veal in a homemade Italian-style meat sauce"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Linguine with Meatballs",
-        price: "$25",
-        description: "Homemade meatballs in a pomodoro sauce with Parmigiano"
+        price: "$27",
+        description: "Two homemade meatballs in a pomodoro sauce with Parmigiano"
     },
     {
         category: "dinner-pasta-risotto",
-        name: "Mushroom Risotto",
-        price: "$27 GF",
-        description: "Porcini, Portobello and Cremini mushrooms finished with Parmigiano"
+        name: "Risotto Funghi",
+        price: "$28 GF",
+        description: "Porcini, portobello and cremini mushrooms finished with Parmigiano"
     },
     {
         category: "dinner-pasta-risotto",
-        name: "Penne Fantasia (Spicy)",
-        price: "$26",
+        name: "Penne Fantasia",
+        price: "$27",
         description: "Penne with grilled sausage, peas and peppers, served with a rosé sauce"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Spaghetti Carbonara",
-        price: "$24",
+        price: "$26",
         description: "Guanciale, Pecorino cheese and egg yolk"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Nonna's Homemade Gnocchi",
-        price: "$24 V",
+        price: "$27 V",
         description: "Choice of rosé, tomato or meat sauce"
+    },
+    {
+        category: "dinner-pasta-risotto",
+        name: "Penne al Forno",
+        price: "$27",
+        description: "Ragazzi-style mac’n’cheese with pancetta and peas in a béchamel cream sauce"
     },
 
     // Dinner Entree
@@ -521,25 +527,25 @@ const menuItems = [
     {
         category: "dinner-pizza",
         name: "Pizza Margherita",
-        price: "$17",
+        price: "$18",
         description: "Pomodoro sauce and fior di latte cheese with fresh basil and sliced tomatoes"
     },
     {
         category: "dinner-pizza",
         name: "Pizza Diavola",
-        price: "$19",
+        price: "$24",
         description: "Pomodoro sauce, fior di latte cheese, pancetta and spicy salami"
     },
     {
         category: "dinner-pizza",
         name: "Pizza Vegetariana",
-        price: "$18 V",
+        price: "$20 V",
         description: "Pomodoro sauce, fior di latte cheese, peppers, mushrooms, peas, onions and green olives"
     },
     {
         category: "dinner-pizza",
         name: "Pizza Ragazzi",
-        price: "$22",
+        price: "$24",
         description: "Pomodoro sauce, fior di latte cheese, grilled sausage, green olives, feta cheese, fresh basil and peppers"
     },
     // Dinner Gluten-Free
