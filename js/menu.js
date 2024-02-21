@@ -360,56 +360,56 @@ const menuItems = [
     {
         category: "dinner-antipasti",
         name: "Nonna's Handmade Focaccia",
-        price: "$8",
+        price: "$9",
         description: "Served with Tuscan bomba oil"
     },
     {
         category: "dinner-antipasti",
         name: "Caprese Salad",
-        price: "$17 V",
+        price: "$18 V",
         description: "Fresh mozzarella cheese, fresh ripe tomatoes and Sicilian olives in Tuscan bomba oil with balsamic glaze"
     },
     {
         category: "dinner-antipasti",
         name: "Caesar Salad",
-        price: "$13",
+        price: "$14",
         description: "Smoky bacon, toasted homemade croutons, classic Caesar dressing and Parmigiano"
     },
     {
         category: "dinner-antipasti",
         name: "Calamari Fritti",
-        price: "$18",
+        price: "$19",
         description: "Flash-fried, tossed with herbs with pomodoro sauce"
     },
     {
         category: "dinner-antipasti",
         name: "Mussels",
-        price: "$17 GF",
+        price: "$18",
         description: "Fresh herbs in your choice of white wine or pomodoro sauce"
     },
     {
         category: "dinner-antipasti",
         name: "Antipasto Board",
-        price: "$26",
-        description: "Salami, prosciutto, Parmigiano, olives, Italian medley and three crostini"
+        price: "$31",
+        description: "Cacciatore salami, spicy salami, prosciutto, capocollo, fior di latte, aged Parmigiano, asiago, Italian pickled vegetable medley, served with three crostini"
     },
     {
         category: "dinner-antipasti",
         name: "Polpette",
-        price: "$18",
+        price: "$20",
         description: "Three homemade meatballs stuffed with pork, veal, beef and ricotta cheese, finished in our homemade pomodoro sauce, topped with Parmigiano and served with two crostini"
     },
     {
         category: "dinner-antipasti",
         name: "Bruschetta",
-        price: "$14 V",
+        price: "$16 V",
         description: "Four pieces of grilled crostini with fresh tomatoes, basil and olive oil"
     },
     {
         category: "dinner-antipasti",
         name: "Shrimp & Scallop Sambuca",
-        price: "$22",
-        description: "Jumbo shrimp and scallops, tomatoes and peppers on a skillet with flaming Sambuca"
+        price: "$26",
+        description: "Three jumbo shrimps and two scallops, roasted cherry tomatoes and roasted green peppers on a skillet with flaming Sambuca"
     },
     {
         category: "dinner-antipasti",
