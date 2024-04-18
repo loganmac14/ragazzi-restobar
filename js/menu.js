@@ -690,31 +690,43 @@ const menuItems = [
         category: "drinks-cocktails",
         name: "Alla Laura Espresso Martini",
         price: "$15",
-        description: "Belvedere, Kahlua, Bailey's, Espresso"
+        description: "Coldstream Vodka, Kahlua, Coldstream Coffee Rum Cream, Espresso"
     },
     {
         category: "drinks-cocktails",
-        name: "La Bella Sangria",
+        name: "La Isabella Sangria",
         price: "$15 / $45 16 oz pitcher",
-        description: "(White or Red) Pinot Grigio or Cabernet"
+        description: "Pinot Grigio or Cabernet"
     },
     {
         category: "drinks-cocktails",
         name: "Negroni Petricola",
         price: "$15",
-        description: "Bombay Gin, Vermouth, Campari"
+        description: "Coldstream Gin, Vermouth, Campari"
+    },
+    {
+        category: "drinks-cocktails",
+        name: "Basil Smach",
+        price: "$15",
+        description: "Handpicked Basil Leaves, Coldstream Vodka, Simple Syrup, Fresh Lime Juice"
+    },
+    {
+        category: "drinks-cocktails",
+        name: "Bloody Caesar Alla Tony",
+        price: "$15",
+        description: "Coldstream Vodka, Clamato, Lemon, Olives, Sausage, Beans"
     },
     {
         category: "drinks-cocktails",
         name: "Blueberry Passione",
         price: "$15",
-        description: "Belvedere, Chambord, Lemon, Soda, Blueberries, Mint"
+        description: "Coldstream Vodka, Chambord, Lemon, Soda, Blueberries, Mint"
     },
     {
         category: "drinks-cocktails",
         name: "Gin Gin Mule",
         price: "$15",
-        description: "Bombay Gin, Ginger Beer"
+        description: "Coldstream Gin, Ginger Beer"
     },
     {
         category: "drinks-cocktails",
@@ -724,15 +736,15 @@ const menuItems = [
     },
     {
         category: "drinks-cocktails",
-        name: "Limoncello Mojito",
-        price: "$15",
-        description: "Luxardo Limoncello, Rum, Simple Syrup, Mint"
+        name: "Kiwi Tropicale",
+        price: "$14",
+        description: "Kiwi Liqueur, Coldstream Gin, Passion Fruit, Lime, Simple Syrup"
     },
     {
         category: "drinks-cocktails",
-        name: "Bloody Caesar Alla Tony",
+        name: "Limoncello Mojito",
         price: "$15",
-        description: "Belvedere, Clamatos, Lemon, Olives, Sausage, Beans"
+        description: "Luxardo Limoncello, Coldstream Rum, Simple Syrup, Mint"
     },
     {
         category: "drinks-cocktails",
@@ -740,18 +752,7 @@ const menuItems = [
         price: "$13",
         description: "Strawberry, Mango, Rum, Simple Syrup, and Lots of Love"
     },
-    {
-        category: "drinks-cocktails",
-        name: "La Cosmo Ragazzi",
-        price: "$15",
-        description: "Ciroc Peach Vodka, Cointreau"
-    },
-    {
-        category: "drinks-cocktails",
-        name: "Kiwi Tropicale",
-        price: "$14",
-        description: "Kiwi Liqueur, Gin, Passion Fruit, Lime, Simple Syrup"
-    },
+    
     // Drinks White
     {
         category: "drinks-white",
@@ -773,7 +774,7 @@ const menuItems = [
     },
     {
         category: "drinks-white",
-        name: "Arrogant Frog Rose",
+        name: "Rose",
         price: "$11 / $13 / $47",
         description: ""
     },
@@ -785,7 +786,7 @@ const menuItems = [
     },
     {
         category: "drinks-white",
-        name: "Prosecco",
+        name: "Ruffino Prosecco",
         price: "$13 / $48",
         description: ""
     },
@@ -797,8 +798,8 @@ const menuItems = [
     },
     {
         category: "drinks-white",
-        name: "Santa Carolina Reserva Sauvignon Blanc",
-        price: "$51",
+        name: "Kim Crawford Sauvignon Blanc",
+        price: "$54",
         description: ""
     },
     {
@@ -821,8 +822,8 @@ const menuItems = [
     },
     {
         category: "drinks-white",
-        name: "Alois Lagedar Chardonnay",
-        price: "$125",
+        name: "Bogle Chardonnay",
+        price: "$81",
         description: ""
     },
     // Drinks - Red
@@ -834,7 +835,7 @@ const menuItems = [
     },
     {
         category: "drinks-red",
-        name: "Cabernet Sauvignon",
+        name: "Morgan Bay Cellars Cabernet Sauvignon",
         price: "$14 / $16 / $52",
         description: ""
     },
@@ -846,7 +847,7 @@ const menuItems = [
     },
     {
         category: "drinks-red",
-        name: "Chianti",
+        name: "Ruffino Chianti",
         price: "$14 / $16 / $50",
         description: ""
     },
@@ -858,20 +859,20 @@ const menuItems = [
     },
     {
         category: "drinks-red",
-        name: "Masi Campofiorin (375mL)",
-        price: "$27",
+        name: "Masi Campofiorin",
+        price: "$27 (375mL) / $53 (750mL)",
         description: ""
     },
     {
         category: "drinks-red",
-        name: "Carpineto Toscana Cabernet Sauvignon",
-        price: "$80",
+        name: "Great Big Friggin' Red",
+        price: "$13 (200mL) / $49 (750mL)",
         description: ""
     },
     {
         category: "drinks-red",
         name: "Masi Valpolicella",
-        price: "$53",
+        price: "$51",
         description: ""
     },
     {
@@ -882,20 +883,26 @@ const menuItems = [
     },
     {
         category: "drinks-red",
-        name: "Masi Campofiorin",
-        price: "$62",
+        name: "Bread & Butter Merlot",
+        price: "$69",
         description: ""
     },
     {
         category: "drinks-red",
-        name: "Wente Southern Hills Cabernet Sauvignon",
-        price: "$80",
+        name: "Casisano Rosso Di Montalcino",
+        price: "$79",
         description: ""
     },
     {
         category: "drinks-red",
-        name: "Antinori Rosso Di Montalcino",
-        price: "$82",
+        name: "Carpineto Farnito Cabernet Sauvignon",
+        price: "$70",
+        description: ""
+    },
+    {
+        category: "drinks-red",
+        name: "Tenuta Di Toscana Lucente",
+        price: "$90",
         description: ""
     },
     {
@@ -906,8 +913,8 @@ const menuItems = [
     },
     {
         category: "drinks-red",
-        name: "Batasiolo Barolo",
-        price: "$130",
+        name: "Fontanafredda Barolo",
+        price: "$110",
         description: ""
     },
     {
@@ -922,6 +929,30 @@ const menuItems = [
         price: "$240",
         description: ""
     },
+    {
+        category: "drinks-red",
+        name: "Chateau Gillet Bordeaux",
+        price: "$115",
+        description: ""
+    },
+    {
+        category: "drinks-red",
+        name: "Marques De Murrieta (1.5L)",
+        price: "$380",
+        description: ""
+    },
+    {
+        category: "drinks-red",
+        name: "Chateau Paul Mas (3L)",
+        price: "$450",
+        description: ""
+    },
+    {
+        category: "drinks-red",
+        name: "Il Borro Toscana (1.5L)",
+        price: "$300",
+        description: ""
+    },
     // Drinks Champagne
     {
         category: "drinks-champagne",
@@ -931,7 +962,7 @@ const menuItems = [
     },
     {
         category: "drinks-champagne",
-        name: "Veuve Clicquot",
+        name: "Veuve Clicquot Yellow Label",
         price: "$150",
         description: ""
     },
@@ -945,14 +976,14 @@ const menuItems = [
     // Drinks Cognac
     {
         category: "drinks-cognac",
-        name: "Hennessy VSOP",
-        price: "$15",
+        name: "Hennessy VS",
+        price: "$13",
         description: ""
     },
     {
         category: "drinks-cognac",
-        name: "Remy Martin VSOP",
-        price: "$19",
+        name: "Hennessy VSOP",
+        price: "$15",
         description: ""
     },
     {
@@ -961,7 +992,12 @@ const menuItems = [
         price: "$35",
         description: ""
     },
-
+    {
+        category: "drinks-cognac",
+        name: "Remy Martin VSOP",
+        price: "$17",
+        description: ""
+    },
     // Drinks Single Malts
     {
         category: "drinks-single-malts",
@@ -973,12 +1009,6 @@ const menuItems = [
         category: "drinks-single-malts",
         name: "Oban 14 Years",
         price: "$20",
-        description: ""
-    },
-    {
-        category: "drinks-single-malts",
-        name: "The Macallan Gold",
-        price: "$18",
         description: ""
     },
     {
@@ -1048,18 +1078,12 @@ const menuItems = [
         price: "$13",
         description: ""
     },
-    {
-        category: "drinks-rum",
-        name: "Seleccion",
-        price: "$18",
-        description: ""
-    },
-
+    
     // Drinks Tequila
     {
         category: "drinks-tequila",
         name: "Clase Azul Reposado",
-        price: "$40",
+        price: "$30",
         description: ""
     },
     {
@@ -1124,17 +1148,23 @@ const menuItems = [
         price: "$16",
         description: ""
     },
+    {
+        category: "drinks-scotch",
+        name: "Blue Label",
+        price: "$45",
+        description: ""
+    },
     // Drinks Gin
     {
         category: "drinks-gin",
         name: "Ungava",
-        price: "$13",
+        price: "$12",
         description: ""
     },
     {
         category: "drinks-gin",
         name: "Tanqueray",
-        price: "$13",
+        price: "$12",
         description: ""
     },
     {
@@ -1145,8 +1175,14 @@ const menuItems = [
     },
     {
         category: "drinks-gin",
+        name: "Scapegrace",
+        price: "$11",
+        description: ""
+    },
+    {
+        category: "drinks-gin",
         name: "Hendrick's",
-        price: "$13",
+        price: "$12",
         description: ""
     },
 
@@ -1171,8 +1207,14 @@ const menuItems = [
     },
     {
         category: "drinks-bourbon",
-        name: "Buffalo Trace",
+        name: "Bulleit",
         price: "$12",
+        description: ""
+    },
+    {
+        category: "drinks-bourbon",
+        name: "Buffalo Trace",
+        price: "$13",
         description: ""
     },
     {
@@ -1191,7 +1233,7 @@ const menuItems = [
     },
     {
         category: "drinks-vodka",
-        name: "Ciroc",
+        name: "Ciroc Peach",
         price: "$12",
         description: ""
     },
@@ -1211,31 +1253,6 @@ const menuItems = [
         category: "drinks-vodka",
         name: "Belvedere",
         price: "$13",
-        description: ""
-    },
-    {
-        category: "drinks-vodka",
-        name: "Skeleton Vodka",
-        price: "$12",
-        description: ""
-    },
-    // Drinks Luxardo
-    {
-        category: "drinks-luxardo",
-        name: "Luxardo Sambuca",
-        price: "$10",
-        description: ""
-    },
-    {
-        category: "drinks-luxardo",
-        name: "Luxardo Passione Nera",
-        price: "$10",
-        description: ""
-    },
-    {
-        category: "drinks-luxardo",
-        name: "Luxardo Limoncello",
-        price: "$10",
         description: ""
     },
 
@@ -1266,27 +1283,45 @@ const menuItems = [
     },
     {
         category: "drinks-beer",
-        name: "Coors Light",
-        price: "$8",
+        name: "Coors Seltzer",
+        price: "$7",
+        description: ""
+    },
+    {
+        category: "drinks-beer",
+        name: "Vizzy Seltzer",
+        price: "$7",
+        description: ""
+    },
+    {
+        category: "drinks-beer",
+        name: "Simply Spiked Lemonade",
+        price: "$7",
+        description: ""
+    },
+    {
+        category: "drinks-beer",
+        name: "Coldstream Peach Iced Tea",
+        price: "$7",
         description: ""
     },
     // Drinks Beverages
     {
         category: "drinks-beverages",
         name: "San Pellegrino (500ml)",
-        price: "$6",
+        price: "$7",
         description: ""
     },
     {
         category: "drinks-beverages",
         name: "Aqua Panna (500ml)",
-        price: "$6",
+        price: "$7",
         description: ""
     },
     {
         category: "drinks-beverages",
         name: "Pop",
-        price: "$4",
+        price: "$5",
         description: ""
     },
     {
@@ -1311,12 +1346,6 @@ const menuItems = [
     },
     {
         category: "drinks-cafe",
-        name: "Cappuccino",
-        price: "$5",
-        description: ""
-    },
-    {
-        category: "drinks-cafe",
         name: "Café Americano",
         price: "$5",
         description: ""
@@ -1326,6 +1355,20 @@ const menuItems = [
         name: "Latte Macchiato",
         price: "$5",
         description: ""
+    },
+    
+    {
+        category: "drinks-cafe",
+        name: "Cappuccino",
+        price: "$5",
+        description: ""
+    },
+    
+    {
+        category: "drinks-cafe",
+        name: "Flavoured Coffee",
+        price: "$8",
+        description: "Vanilla, caramel or mocha"
     },
 ];
 
