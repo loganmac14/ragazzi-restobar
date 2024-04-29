@@ -696,7 +696,7 @@ const menuItems = [
         category: "drinks-cocktails",
         name: "La Isabella Sangria",
         price: "$15 / $45 16 oz pitcher",
-        description: "Pinot Grigio or Cabernet"
+        description: "Pinot Grigio or Cabernet Sauvignon"
     },
     {
         category: "drinks-cocktails",
