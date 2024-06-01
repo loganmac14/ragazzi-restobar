@@ -514,7 +514,7 @@ const menuItems = [
     {
         category: "dinner-entree",
         name: "Mari e Monti",
-        price: "$27",
+        price: "$49",
         description: "10 oz AAA striploin topped with red wine mushroom sauce and a 5oz Nova Scotia lobster tail, served with seasonal vegetables"
     },
     // Dinner Pizza
