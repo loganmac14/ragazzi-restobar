@@ -545,27 +545,33 @@ const menuItems = [
     },
     {
         category: "dinner-pizza",
+        name: "",
+        price: "",
+        description: "Gluten-free crust available for an additional $4 (dough not made in-house)"
+    },
+    {
+        category: "dinner-pizza",
         name: "Pizza Margherita",
-        price: "$18",
-        description: "Pomodoro sauce and fior di latte cheese with fresh basil and sliced tomatoes"
+        price: "$19",
+        description: "Pomodoro sauce and fior di latte cheese with fresh basil and roasted cherry tomatoes"
     },
     {
         category: "dinner-pizza",
         name: "Pizza Diavola",
-        price: "$24",
+        price: "$25",
         description: "Pomodoro sauce, fior di latte cheese, pancetta and spicy salami"
     },
     {
         category: "dinner-pizza",
         name: "Pizza Vegetariana",
-        price: "$20 V",
-        description: "Pomodoro sauce, fior di latte cheese, peppers, mushrooms, peas, onions and green olives"
+        price: "$22 V",
+        description: "Pomodoro sauce, fior di latte cheese and seasonal vegetables"
     },
     {
         category: "dinner-pizza",
         name: "Pizza Ragazzi",
-        price: "$24",
-        description: "Pomodoro sauce, fior di latte cheese, grilled sausage, green olives, feta cheese, fresh basil and peppers"
+        price: "$26",
+        description: "Pesto sauce, fior di latte cheese, chicken and roasted cherry tomatoes finished with roasted garlic aioli"
     },
     // Dinner Gluten-Free
     {
