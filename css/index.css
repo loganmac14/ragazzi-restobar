@@ -22,11 +22,10 @@
 }
 
 #next-button {
-    color: #FAFAFA;
+    background-color: #000000;
     position: absolute;
     bottom: 0;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     left: 50%;
     transform: translatex(-50%);
 }
