@@ -28,7 +28,7 @@
     margin-bottom: 0rem;
     left: 50%;
     transform: translatex(-50%);
-    width: 100%;
+    width: 100vw;
 }
 
 #story {
