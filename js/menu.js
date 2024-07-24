@@ -146,8 +146,34 @@ const menuItems = [
         price: "$20",
         description: "Chicken, tomatoes, pancetta, arugula, mozzarella and homemade aioli served on focaccia"
     },
-
+    
+    // Lunch Salad
+    {
+        category: "lunch-salad",
+        name: "Chicken Caesar",
+        price: "$18",
+        description: ""
+    },
+    {
+        category: "lunch-salad",
+        name: "House Salad with Chicken",
+        price: "$18",
+        description: ""
+    },
+    {
+        category: "lunch-salad",
+        name: "Add-ons",
+        price: "",
+        description: "Three shrimps $9, three scallops $9"
+    },
+    
     // Lunch Gluten-Free
+    {
+        category: "lunch-gluten-free",
+        name: "Penne Primavera",
+        price: "$21",
+        description: "Mushrooms, peppers, Pomodoro sauce"
+    },
     {
         category: "lunch-gluten-free",
         name: "Risotto Di Mare",
