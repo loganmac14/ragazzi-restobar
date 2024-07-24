@@ -273,68 +273,86 @@ const menuItems = [
     // Lunch Dolce
     {
         category: "lunch-dolce",
-        name: "Chocolate Almond Torte",
-        price: "$12",
-        description: "Two layers of moist chocolate almond torte (made with gluten-free flour) cradling a creamy almond filling and topped with a smooth chocolate almond mousse. You won't believe it's gluten-free!"
+        name: "Torta al Cioccolato",
+        price: "$13",
+        description: ""
     },
     {
         category: "lunch-dolce",
-        name: "Tiramisu Cake",
-        price: "$12",
-        description: 'The name means "pick me up" and it certainly will! Espresso drenched cake layers enhanced with a mouth watering mascarpone cheese mousse, topped with a dusting of cocoa sugar. Mama Mia!'
+        name: "Carrot Cake",
+        price: "$13",
+        description: ''
     },
     {
         category: "lunch-dolce",
-        name: "Coffee Crunch Bar",
-        price: "$12",
-        description: "We give you a crunchy milk chocolate and coffee base, followed by a coffee no-bake cheesecake filled with COFFEE CRISP pieces. The third layer is a chocolate glaze, more COFFEE CRISP and milk chocolate drizzle."
+        name: "Tiramisu",
+        price: "$14",
+        description: ""
     },
     {
         category: "lunch-dolce",
-        name: "After-Dinner Delight Cheeseboard",
-        price: "$19",
-        description: "Served with specialty cheeses. Ask your server for more information"
+        name: "Skor Brownie",
+        price: "$13",
+        description: ""
     },
     {
         category: "lunch-dolce",
-        name: "Affogato",
-        price: "$12",
-        description: "Vanilla gelato, espresso and biscotti"
+        name: "Cheesecake",
+        price: "$13",
+        description: ""
     },
     {
         category: "lunch-dolce",
-        name: "Cheesecake of the Moment",
-        price: "$12",
-        description: "Big enough to warrant its own area code; the Tower of Power is a jumbo-sized New York style cheesecake enhance with a subtle vanilla flavour"
+        name: "A Dessert Trio",
+        price: "25",
+        description: "Skor brownie, torta al cioccolato and crème brûlée"
+    },
+    {
+        category: "lunch-dolce",
+        name: "Cheese Board",
+        price: "27",
+        description: ""
     },
     // Lunch Specialty Coffee
     {
         category: "lunch-specialty-coffee",
         name: "Ragazzi Coffee",
-        price: "$11",
+        price: "$13",
         description: ""
     },
     {
         category: "lunch-specialty-coffee",
         name: "Spanish Coffee",
-        price: "$11",
+        price: "$13",
         description: ""
     },
     {
         category: "lunch-specialty-coffee",
         name: "Irish Coffee",
-        price: "$11",
+        price: "$13",
         description: ""
     },
     {
         category: "lunch-specialty-coffee",
         name: "Monte Cristo Coffee",
-        price: "$11",
+        price: "$13",
         description: ""
     },
     {
         category: "lunch-specialty-coffee",
         name: "Flavoured Coffee",
+        price: "$6",
+        description: ""
+    },
+    {
+        category: "lunch-specialty-coffee",
+        name: "Blueberry Tea",
+        price: "$17",
+        description: ""
+    },
+    {
+        category: "lunch-specialty-coffee",
+        name: "Latte Macchiato",
         price: "$6",
         description: ""
     },
@@ -349,12 +367,6 @@ const menuItems = [
         name: "Cappuccino",
         price: "$5",
         description: ""
-    },
-    {
-        category: "lunch-specialty-coffee",
-        name: "Ports & Cognacs",
-        price: "",
-        description: "Ask your server for details"
     },
     // Dinner Antipasti
     {
@@ -627,68 +639,86 @@ const menuItems = [
     // Dinner Dolce
     {
         category: "dinner-dolce",
-        name: "Chocolate Almond Torte",
-        price: "$12",
-        description: "Two layers of moist chocolate almond torte (made with gluten-free flour) cradling a creamy almond filling and topped with a smooth chocolate almond mousse. You won't believe it's gluten-free!"
+        name: "Torta al Cioccolato",
+        price: "$13",
+        description: ""
     },
     {
         category: "dinner-dolce",
-        name: "Tiramisu Cake",
-        price: "$12",
-        description: 'The name means "pick me up" and it certainly will! Espresso drenched cake layers enhanced with a mouth watering mascarpone cheese mousse, topped with a dusting of cocoa sugar. Mama Mia!'
+        name: "Carrot Cake",
+        price: "$13",
+        description: ''
     },
     {
         category: "dinner-dolce",
-        name: "Coffee Crunch Bar",
-        price: "$12",
-        description: "We give you a crunchy milk chocolate and coffee base, followed by a coffee no-bake cheesecake filled with COFFEE CRISP pieces. The third layer is a chocolate glaze, more COFFEE CRISP and milk chocolate drizzle."
+        name: "Tiramisu",
+        price: "$14",
+        description: ""
     },
     {
         category: "dinner-dolce",
-        name: "After-Dinner Delight Cheeseboard",
-        price: "$19",
-        description: "Served with specialty cheeses. Ask your server for more information"
+        name: "Skor Brownie",
+        price: "$13",
+        description: ""
     },
     {
         category: "dinner-dolce",
-        name: "Affogato",
-        price: "$12",
-        description: "Vanilla gelato, espresso and biscotti"
+        name: "Cheesecake",
+        price: "$13",
+        description: ""
     },
     {
         category: "dinner-dolce",
-        name: "Cheesecake of the Moment",
-        price: "$12",
-        description: "Big enough to warrant its own area code; the Tower of Power is a jumbo-sized New York style cheesecake enhance with a subtle vanilla flavour"
+        name: "A Dessert Trio",
+        price: "$25",
+        description: "Skor brownie, torta al cioccolato, crème brûlée"
+    },
+    {
+        category: "dinner-dolce",
+        name: "Cheese Board",
+        price: "$27",
+        description: ""
     },
     // Dinner Specialty Coffee
     {
         category: "dinner-specialty-coffee",
         name: "Ragazzi Coffee",
-        price: "$11",
+        price: "$13",
         description: ""
     },
     {
         category: "dinner-specialty-coffee",
         name: "Spanish Coffee",
-        price: "$11",
+        price: "$13",
         description: ""
     },
     {
         category: "dinner-specialty-coffee",
         name: "Irish Coffee",
-        price: "$11",
+        price: "$13",
         description: ""
     },
     {
         category: "dinner-specialty-coffee",
         name: "Monte Cristo Coffee",
-        price: "$11",
+        price: "$13",
         description: ""
     },
     {
         category: "dinner-specialty-coffee",
         name: "Flavoured Coffee",
+        price: "$6",
+        description: ""
+    },
+    {
+        category: "dinner-specialty-coffee",
+        name: "Blueberry Tea",
+        price: "$17",
+        description: ""
+    },
+    {
+        category: "dinner-specialty-coffee",
+        name: "Latte Macchiato",
         price: "$6",
         description: ""
     },
@@ -703,12 +733,6 @@ const menuItems = [
         name: "Cappuccino",
         price: "$5",
         description: ""
-    },
-    {
-        category: "dinner-specialty-coffee",
-        name: "Ports & Cognacs",
-        price: "",
-        description: "Ask your server for details"
     },
     // Drinks Cocktails
     {
@@ -1008,7 +1032,7 @@ const menuItems = [
     {
         category: "drinks-cognac",
         name: "Hennessy VSOP",
-        price: "$15",
+        price: "$18",
         description: ""
     },
     {
@@ -1169,7 +1193,7 @@ const menuItems = [
     },
     {
         category: "drinks-scotch",
-        name: "Gold Label Reserve",
+        name: "Gold Label",
         price: "$16",
         description: ""
     },
