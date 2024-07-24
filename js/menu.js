@@ -3,7 +3,7 @@ const menuItems = [
     {
         category: "lunch-antipasti",
         name: "Nonna's Handmade Focaccia",
-        price: "$8",
+        price: "$10",
         description: "Served with Tuscan bomba oil"
     },
     {
@@ -14,18 +14,6 @@ const menuItems = [
     },
     {
         category: "lunch-antipasti",
-        name: "Caesar",
-        price: "$13",
-        description: "Smoky bacon, toasted homemade croutons, classic Caesar dressing and Parmigiano"
-    },
-    {
-        category: "lunch-antipasti",
-        name: "Polpette",
-        price: "$18",
-        description: "Three homemade meatballs stuffed with pork, veal, beef and ricotta cheese, finished in our homemade pomodoro sauce, topped with Parmigiano and served with two crostini"
-    },
-    {
-        category: "lunch-antipasti",
         name: "Calamari Fritti",
         price: "$18",
         description: "Flash-fried, tossed with herbs with pomodoro sauce"
@@ -33,7 +21,7 @@ const menuItems = [
     {
         category: "lunch-antipasti",
         name: "Mussels",
-        price: "$17 GF",
+        price: "$17",
         description: "Fresh herbs in your choice of white wine or pomodoro sauce"
     },
     {
@@ -42,137 +30,6 @@ const menuItems = [
         price: "$26",
         description: "Cacciatore salami, prosciutto, Parmigiano, pecorino, olives and Italian medley"
     },
-    {
-        category: "lunch-antipasti",
-        name: "Bruschetta",
-        price: "$13 V",
-        description: "4 pieces of grilled crostini with fresh tomatoes, basil and olive oil"
-    },
-    {
-        category: "lunch-antipasti",
-        name: "Shrimp & Scallop Sambuca",
-        price: "$22",
-        description: "Jumbo shrimp and scallops, tomatoes and peppers on a skillet with flaming Sambuca"
-    },
-    {
-        category: "lunch-antipasti",
-        name: "Salad Add-ons",
-        price: "",
-        description: "Chicken $6, shrimp (3 for $9), or scallops (3 for $9)"
-    },
-
-    // Lunch Pasta & Risotto
-    {
-        category: "lunch-pasta-risotto",
-        name: "",
-        price: "",
-        description: "Gluten free options available"
-    },
-    {
-        category: "lunch-pasta-risotto",
-        name: "Linguine Pescatore",
-        price: "$33",
-        description: "Shrimps, scallops, and mussels in a pomodoro sauce"
-    },
-    {
-        category: "lunch-pasta-risotto",
-        name: "Penne alla Vodka",
-        price: "$20",
-        description: "Onions, garlic, Parmigiano, and pancetta in a rosé cream sauce"
-    },
-    {
-        category: "lunch-pasta-risotto",
-        name: "Penne Florentina",
-        price: "$21 V",
-        description: "Traditional Italian pesto, mushrooms, peas and cherry tomatoes in a bechamel crema sauce (add chicken for $5)"
-    },
-    {
-        category: "lunch-pasta-risotto",
-        name: "Penne Fantasia (Spicy)",
-        price: "$21 V",
-        description: "Grilled sausage, peas and peppers served in a rosé"
-    },
-    {
-        category: "lunch-pasta-risotto",
-        name: "Tagliatelle alla Bolognese",
-        price: "$22",
-        description: "Beef, pork and veal in a homemade Italian-style meat sauce"
-    },
-    {
-        category: "lunch-pasta-risotto",
-        name: "Linguine with Meatballs",
-        price: "$21",
-        description: "Homemade meatballs in a pomodoro sauce with Parmigiano"
-    },
-    {
-        category: "lunch-pasta-risotto",
-        name: "Lobster Tagliatelle",
-        price: "$34",
-        description: "5oz Lobster tail, cherry tomatoes, garlic, fennel and brandy in a cream sauce"
-    },
-    {
-        category: "lunch-pasta-risotto",
-        name: "Risotto di Mare",
-        price: "$32 GF",
-        description: "Shrimps, scallops and mussels in a pomodoro sauce"
-    },
-    {
-        category: "lunch-pasta-risotto",
-        name: "Nonna's Homemade Gnocchi",
-        price: "$24 V",
-        description: "Choice of rosé, tomato or meat sauce"
-    },
-    {
-        category: "lunch-pasta-risotto",
-        name: "Spaghetti Carbonara",
-        price: "$24",
-        description: "Guanciale, pecorino cheese and egg yolk"
-    },
-    // Lunch Entree
-    {
-        category: "lunch-entree",
-        name: "Nonna's Lasagna",
-        price: "$25",
-        description: "Classic homemade three-meat lasagna topped with bechamel sauce and served with Caesar salad"
-    },
-    {
-        category: "lunch-entree",
-        name: "Chicken or Veal Parmigiana",
-        price: "$31",
-        description: "Breaded cutlets, mozzarella cheese and pomodoro sauce with a side of tagliatelle in a rosé sauce"
-    },
-    {
-        category: "lunch-entree",
-        name: "Pesce e Fritto",
-        price: "$27",
-        description: "Ragazzi-style fish and chips, basil and white wine battered haddock served with homemade frittes"
-    },
-
-    // Lunch Sandwich
-    {
-        category: "lunch-sandwich",
-        name: "",
-        price: "",
-        description: "Available 11am - 4pm, with choice of side of frittes, soup or salad"
-    },
-    {
-        category: "lunch-sandwich",
-        name: "Panini Italiano",
-        price: "$17",
-        description: "Prosciutto, salami, roasted peppers, provolone, arugula and garlic aioli served on focaccia"
-    },
-    {
-        category: "lunch-sandwich",
-        name: "Panini Caprese",
-        price: "$16",
-        description: "Bocconcini cheese, arugula, balsamic reduction, tomatoes and herb butter served on focaccia"
-    },
-    {
-        category: "lunch-sandwich",
-        name: "Amalfi Chicken Panini",
-        price: "$17",
-        description: "Chicken, tomatoes, pancetta, arugula, provolone and garlic aioli served on focaccia"
-    },
 
     // Lunch Pizza
     {
@@ -180,6 +37,12 @@ const menuItems = [
         name: "",
         price: "",
         description: "Gourmet Italian style 10 inch thin crust"
+    },
+    {
+        category: "lunch-pizza",
+        name: "",
+        price: "",
+        description: "Gluten-free crust available for an additional $4 (not made in house)"
     },
     {
         category: "lunch-pizza",
@@ -199,26 +62,91 @@ const menuItems = [
         price: "$18 V",
         description: "Pomodoro sauce, fior di latte cheese and vegetables"
     },
+
+    // Lunch Entree
     {
-        category: "lunch-pizza",
-        name: "Pizza Ragazzi",
-        price: "$20",
-        description: "Pomodoro sauce, fior di latte cheese, sausage, green olives, feta cheese, fresh basil and peppers"
+        category: "lunch-entree",
+        name: "Add-ons",
+        price: "",
+        description: "Sauteed mushrooms $3, three shrimps $9"
+    },
+    {
+        category: "lunch-entree",
+        name: "Nonna's Lasagna",
+        price: "$25",
+        description: "Classic homemade three-meat lasagna topped with bechamel sauce and served with a choice of Caesar or house salad"
+    },
+    {
+        category: "lunch-entree",
+        name: "Chicken or Veal Parmigiana",
+        price: "$33",
+        description: "Breaded cutlets, mozzarella cheese and pomodoro sauce with a side of tagliatelle in a rosé sauce"
     },
 
-    // Lunch Sides
+    // Lunch Pasta & Risotto
     {
-        category: "lunch-sides",
-        name: "Frittes with Parmigiano and Thyme",
-        price: "$9",
-        description: ""
+        category: "lunch-pasta-risotto",
+        name: "Linguine Pescatore",
+        price: "$30",
+        description: "Two shrimps, one scallop, and mussels in a pomodoro sauce"
     },
     {
-        category: "lunch-sides",
-        name: "5oz Nova Scotia Lobster Tail",
-        price: "$15",
-        description: ""
+        category: "lunch-pasta-risotto",
+        name: "Penne alla Vodka",
+        price: "$21",
+        description: "Onions, garlic, Parmigiano, and pancetta in a rosé cream sauce"
     },
+    {
+        category: "lunch-pasta-risotto",
+        name: "Penne Florentina",
+        price: "$21 V",
+        description: "Traditional Italian pesto, mushrooms, peas and cherry tomatoes in a bechamel crema sauce (add chicken for $5)"
+    },
+    {
+        category: "lunch-pasta-risotto",
+        name: "Penne alla Boscaiola",
+        price: "$27",
+        description: "Sausage and mixed mushrooms in a pesto cream sauce"
+    },
+    {
+        category: "lunch-pasta-risotto",
+        name: "Tagliatelle alla Bolognese",
+        price: "$23",
+        description: "Beef, pork and veal in an Italian-style meat sauce on egg-noodle pasta"
+    },
+    {
+        category: "lunch-pasta-risotto",
+        name: "Linguine with Meatballs",
+        price: "$21",
+        description: "Homemade meatballs in a pomodoro sauce with Parmigiano"
+    },
+
+    // Lunch Sandwich
+    {
+        category: "lunch-sandwich",
+        name: "",
+        price: "",
+        description: "Available 11am - 4pm, with choice of side of frittes, Caesar or house salad"
+    },
+    {
+        category: "lunch-sandwich",
+        name: "",
+        price: "",
+        description: "Enjoy a box lunch to go with any panini and side plus cheesecake for $23!"
+    },
+    {
+        category: "lunch-sandwich",
+        name: "Panini Giardino",
+        price: "$16 V",
+        description: "Fior di latte, arugula, roasted peppers and a balsamic reduction served on focaccia"
+    },
+    {
+        category: "lunch-sandwich",
+        name: "Panini Ragazzi",
+        price: "$20",
+        description: "Chicken, tomatoes, pancetta, arugula, mozzarella and homemade aioli served on focaccia"
+    },
+
     // Lunch Gluten-Free
     {
         category: "lunch-gluten-free",
@@ -304,13 +232,13 @@ const menuItems = [
     {
         category: "lunch-dolce",
         name: "A Dessert Trio",
-        price: "25",
+        price: "$25",
         description: "Skor brownie, torta al cioccolato and crème brûlée"
     },
     {
         category: "lunch-dolce",
         name: "Cheese Board",
-        price: "27",
+        price: "$27",
         description: ""
     },
     // Lunch Specialty Coffee
