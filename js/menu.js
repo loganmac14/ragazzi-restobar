@@ -78,7 +78,7 @@ const menuItems = [
     },
     {
         category: "lunch-entree",
-        name: "Chicken or Veal Parmigiana",
+        name: "Veal or Halal Chicken Parmigiana",
         price: "$33",
         description: "Breaded cutlets, mozzarella cheese and pomodoro sauce with a side of tagliatelle in a rosé sauce"
     },
