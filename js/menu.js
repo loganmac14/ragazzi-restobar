@@ -24,12 +24,6 @@ const menuItems = [
         price: "$17",
         description: "Fresh herbs in your choice of white wine or pomodoro sauce"
     },
-    {
-        category: "lunch-antipasti",
-        name: "Antipasto Board",
-        price: "$26",
-        description: "Cacciatore salami, prosciutto, Parmigiano, pecorino, olives and Italian medley"
-    },
 
     // Lunch Pizza
     {
@@ -227,32 +221,38 @@ const menuItems = [
     // Lunch Dolce
     {
         category: "lunch-dolce",
-        name: "Torta al Cioccolato",
-        price: "$13",
+        name: "Torta al Cioccolato with Pecans",
+        price: "$14",
         description: ""
     },
     {
         category: "lunch-dolce",
-        name: "Carrot Cake",
-        price: "$13",
+        name: "Carrot Cake with Cream Cheese",
+        price: "$14",
         description: ''
     },
     {
         category: "lunch-dolce",
-        name: "Tiramisu",
+        name: "Tiramisu Cake",
         price: "$14",
         description: ""
     },
     {
         category: "lunch-dolce",
         name: "Skor Brownie",
-        price: "$13",
+        price: "$14",
         description: ""
     },
     {
         category: "lunch-dolce",
-        name: "Cheesecake",
-        price: "$13",
+        name: "Vanilla Ice Cream",
+        price: "$5",
+        description: ""
+    },
+    {
+        category: "lunch-dolce",
+        name: "Affogato",
+        price: "$5",
         description: ""
     },
     {
@@ -263,7 +263,7 @@ const menuItems = [
     },
     {
         category: "lunch-dolce",
-        name: "Cheese Board",
+        name: "Cheeseboard",
         price: "$27",
         description: ""
     },
