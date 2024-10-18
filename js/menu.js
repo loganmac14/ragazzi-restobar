@@ -475,7 +475,7 @@ const menuItems = [
     {
         category: "dinner-entree",
         name: "Veal or Halal Chicken Parmigiana",
-        price: "$37",
+        price: "$379",
         description: "Breaded cutlets, mozzarella cheese and pomodoro sauce with a side of tagliatelle in a rosé sauce"
     },
     {
