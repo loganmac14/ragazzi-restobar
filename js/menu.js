@@ -212,12 +212,6 @@ const menuItems = [
         price: "$24",
         description: "Two slices eggplant, Pomodoro sauce, vegan mozzarella with side salad"
     },
-    {
-        category: "lunch-vegan",
-        name: "Vegan Bowl",
-        price: "$22",
-        description: "Rice, roasted carrots, cauliflower, kidney beans, chickpeas and peas, finished with a creamy, herby Tahini dressing"
-    },
     // Lunch Dolce
     {
         category: "lunch-dolce",
@@ -583,12 +577,6 @@ const menuItems = [
         name: "Grilled Eggplant Parmigiana",
         price: "$24",
         description: "Two slices eggplant, Pomodoro sauce, vegan mozzarella with side salad"
-    },
-    {
-        category: "dinner-vegan",
-        name: "Vegan Bowl",
-        price: "$22",
-        description: "Rice, roasted carrots, cauliflower, kidney beans, chickpeas and peas, finished with a creamy, herby Tahini dressing"
     },
     // Dinner Dolce
     {
