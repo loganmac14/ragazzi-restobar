@@ -37,6 +37,6 @@
     }
 }
 
-#private-bookings a, #wine-tastings a {
+main a {
     text-decoration: underline;
 }
