@@ -320,55 +320,61 @@ const menuItems = [
     {
         category: "dinner-antipasti",
         name: "Nonna's Handmade Focaccia",
-        price: "$10",
+        price: "$11",
         description: "Served with Tuscan bomba oil"
     },
     {
         category: "dinner-antipasti",
+        name: "Fantasia Salad",
+        price: "$18",
+        description: "Pickled beets, arugula, goat cheese and pecans"
+    },
+    {
+        category: "dinner-antipasti",
         name: "Caprese Salad",
-        price: "$19 V",
+        price: "$20 V",
         description: "Fresh mozzarella cheese, fresh ripe tomatoes and Sicilian olives in Tuscan bomba oil with balsamic glaze"
     },
     {
         category: "dinner-antipasti",
         name: "Caesar Salad",
-        price: "$15",
+        price: "$16",
         description: "Smoky bacon, toasted homemade croutons, classic Caesar dressing and Parmigiano"
     },
     {
         category: "dinner-antipasti",
         name: "Polpette",
-        price: "$21",
+        price: "$22",
         description: "Three homemade meatballs stuffed with pork, veal, beef and ricotta cheese, finished in our homemade pomodoro sauce, topped with Parmigiano and served with two crostini"
     },
     {
         category: "dinner-antipasti",
         name: "Calamari Fritti",
-        price: "$21",
+        price: "$22",
         description: "Flash-fried, tossed with herbs with pomodoro sauce"
     },
     {
         category: "dinner-antipasti",
-        name: "Mussels",
-        price: "$19",
+        name: "Mussels & Clams",
+        price: "$21",
         description: "Fresh herbs in your choice of white wine or pomodoro sauce"
     },
     {
         category: "dinner-antipasti",
         name: "Antipasto Board",
-        price: "$33",
-        description: "Cacciatore salami, spicy salami, prosciutto, capocollo, fior di latte, aged Parmigiano, asiago, Italian pickled vegetable medley, served with three crostini"
+        price: "$34",
+        description: "Ask your server for details"
     },
     {
         category: "dinner-antipasti",
         name: "Bruschetta",
-        price: "$18 V",
+        price: "$19 V",
         description: "Four pieces of grilled crostini with fresh tomatoes, basil and olive oil"
     },
     {
         category: "dinner-antipasti",
         name: "Shrimp & Scallop Sambuca",
-        price: "$28",
+        price: "$29",
         description: "Three jumbo shrimps and two scallops, roasted cherry tomatoes and roasted green peppers on a skillet with flaming Sambuca"
     },
     {
@@ -388,68 +394,68 @@ const menuItems = [
     {
         category: "dinner-pasta-risotto",
         name: "Linguine Pescatore",
-        price: "$38",
+        price: "$39",
         description: "Two shrimps, two scallops, and mussels in a pomodoro sauce"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Penne alla Vodka",
-        price: "$28",
+        price: "$29",
         description: "Onions, garlic, Parmigiano, and pancetta in a rosé cream sauce"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Penne Florentina",
-        price: "$28 V",
+        price: "$29 V",
         description: "Traditional Italian pesto, mushrooms, peas and cherry tomatoes in a bechamel crema sauce"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Linguine Vongole",
-        price: "$32",
+        price: "$33",
         description: "Little neck clams, roasted cherry tomatoes and fresh herbs in a garlic olive oil and white wine sauce"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Tagliatelle alla Bolognese",
-        price: "$28",
+        price: "$29",
         description: "Beef, pork and veal in a homemade Italian-style meat sauce on egg noodle pasta"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Linguine with Meatballs",
-        price: "$29",
+        price: "$30",
         description: "Three homemade meatballs in a pomodoro sauce with Parmigiano"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Risotto Funghi",
-        price: "$29 GF",
+        price: "$30 GF",
         description: "Porcini, portobello and cremini mushrooms finished with 12-year-aged Parmigiano"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Risotto ai Frutti di Mare",
-        price: "$40",
+        price: "$41",
         description: "Two shrimps, two scallops, mussels and clams in a rosé sauce "
     },
     {
         category: "dinner-pasta-risotto",
         name: "Nonna's Homemade Gnocchi",
-        price: "$28 V",
+        price: "$29 V",
         description: "Choice of rosé, tomato, pesto cream or meat sauce"
     },
     {
         category: "dinner-pasta-risotto",
         name: "Spaghetti Carbonara",
-        price: "$27",
+        price: "$28",
         description: "Guanciale, Pecorino cheese and egg yolk"
     },
     {
         category: "dinner-pasta-risotto",
-        name: "Mini Cannelloni alla Riley e Massimo",
-        price: "$31",
-        description: "Four pieces of Ragazzi-style cannelloni stuffed with Bolognese sauce and bechamel crema sauce, oven-baked and topped with a rosé sauce and finished with Parmigiana"
+        name: "Rigatoni alla Julian",
+        price: "$32",
+        description: "Sausage, peas, cherry tomatoes in Alfredo sauce"
     },
     {
         category: "dinner-pasta-risotto",
@@ -463,25 +469,25 @@ const menuItems = [
     {
         category: "dinner-entree",
         name: "Nonna's Lasagna",
-        price: "$31",
+        price: "$32",
         description: "Classic homemade three-meat lasagna topped with bechamel sauce and served with a choice of Caesar or house salad"
     },
     {
         category: "dinner-entree",
         name: "Veal or Halal Chicken Parmigiana",
-        price: "$39",
+        price: "$40",
         description: "Breaded cutlets, mozzarella cheese and pomodoro sauce with a side of tagliatelle in a rosé sauce"
     },
     {
         category: "dinner-entree",
         name: "Halibut",
-        price: "$42",
+        price: "$43",
         description: "Pan-seared halibut served with roasted cherry tomatoes in an olive garlic oil with a choice of seasonal vegetables and potatoes or a side of penne in a pomodoro sauce"
     },
     {
         category: "dinner-entree",
         name: "Bistecca di Carne",
-        price: "$45",
+        price: "$47",
         description: "14 oz AAA bone-in ribeye steak topped with our homemade peppercorn sauce with a side of Parmigiana and fresh herb frites"
     },
     {
@@ -512,26 +518,32 @@ const menuItems = [
     {
         category: "dinner-pizza",
         name: "Pizza Margherita",
-        price: "$19",
+        price: "$20",
         description: "Pomodoro sauce and fior di latte cheese with fresh basil and roasted cherry tomatoes"
     },
     {
         category: "dinner-pizza",
         name: "Pizza Diavola",
-        price: "$25",
+        price: "$26",
         description: "Pomodoro sauce, fior di latte cheese, pancetta and spicy salami"
     },
     {
         category: "dinner-pizza",
-        name: "Pizza Vegetariana",
-        price: "$22 V",
-        description: "Pomodoro sauce, fior di latte cheese and seasonal vegetables"
+        name: "Pizza di Parma",
+        price: "$25",
+        description: "Pomodoro sauce, fior di latte cheese with shaved parmigiano, arugula and prosciutto"
     },
     {
         category: "dinner-pizza",
         name: "Pizza Ragazzi",
-        price: "$26",
+        price: "$27",
         description: "Pesto sauce, fior di latte cheese, chicken and roasted cherry tomatoes finished with roasted garlic aioli"
+    },
+    {
+        category: "dinner-pizza",
+        name: "Vegetarian Options Available",
+        price: "",
+        description: ""
     },
     // Dinner Gluten-Free
     {
