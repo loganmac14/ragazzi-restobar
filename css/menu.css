@@ -1,14 +1,3 @@
-#menu-opener {
-    width: 85%;
-    max-width: 1100px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-#lunch .panel-container, #dinner .panel-container, #drinks .panel-container {
-    margin-bottom: 1.5rem;
-}
-
 .menu-container {
     display: flex;
     flex-wrap: wrap;
@@ -62,13 +51,4 @@
     margin-bottom: 0;
     padding-bottom: 1.5rem;
     border-bottom: 2px solid #FAFAFA;
-}
-
-#drinks .menu-container h3 {
-    flex-basis: 100%;
-    margin-left: 0.5rem;
-}
-#drinks h2 {
-    flex-basis: 100%;
-    margin-bottom: 0;
 }
